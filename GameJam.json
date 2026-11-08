@@ -500,20 +500,93 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/game-scene"
+      "referenceTo": "/layouts/verons-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/maemaes-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/marcuss-scene"
     }
   ],
   "layoutsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "itemName": "Game Scene"
+        "itemName": "Veron's Scene"
+      },
+      {
+        "itemName": "Main Scene"
+      },
+      {
+        "itemName": "Maemae's Scene"
+      },
+      {
+        "itemName": "Marcus's Scene"
       }
     ]
   },
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/playercontrols"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/hazards"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/mainmenu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ui"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/sfx--bgm"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemies"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/platforms"
+    }
+  ],
   "externalEventsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "itemName": "PlayerControls"
+      },
+      {
+        "itemName": "Enemies"
+      },
+      {
+        "itemName": "Platforms"
+      },
+      {
+        "itemName": "Hazards"
+      },
+      {
+        "itemName": "UI"
+      },
+      {
+        "itemName": "MainMenu"
+      },
+      {
+        "itemName": "SFX & BGM"
+      }
+    ]
   },
   "tests": [
     {

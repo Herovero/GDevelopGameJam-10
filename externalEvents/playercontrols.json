@@ -1,0 +1,411 @@
+{
+  "associatedLayout": "Veron's Scene",
+  "name": "PlayerControls",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::AddRevoluteJointBetweenTwoBodies"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "Player.X(\"Top\")",
+            "Player.Y(\"Top\")",
+            "Candle",
+            "Candle.X(\"Bottom\")",
+            "Candle.Y(\"Bottom\")",
+            "yes",
+            "0",
+            "-60",
+            "60",
+            "yes",
+            "",
+            "800",
+            "no",
+            "CandleJoint"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Angle"
+          },
+          "parameters": [
+            "Candle",
+            "<=",
+            "-59"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::Remove joint"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "CandleJoint"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Angle"
+          },
+          "parameters": [
+            "Candle",
+            ">=",
+            "59"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::Remove joint"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "CandleJoint"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"a\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::LinearVelocityX"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "=",
+            "-100"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"d\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::LinearVelocityX"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "=",
+            "100"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"a\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"d\""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::LinearVelocityX"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::RevoluteJointMotorSpeed"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "CandleJoint",
+            "=",
+            "-100 + (abs(AngleDifference(Candle.Angle(), 0)) * 1.5)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Right\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::RevoluteJointMotorSpeed"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "CandleJoint",
+            "=",
+            "100 - (abs(AngleDifference(Candle.Angle(), 0)) * 1.5)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "abs(AngleDifference(Candle.Angle(), 0))",
+                ">=",
+                "30"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::RevoluteJointMotorSpeed"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "CandleJoint",
+            "=",
+            "AngleDifference(Candle.Angle(), 0) * 0.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::And"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "abs(AngleDifference(Candle.Angle(), 0))",
+                "<",
+                "30"
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::RevoluteJointMotorSpeed"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "CandleJoint",
+            "=",
+            "AngleDifference(Candle.Angle(), 0) * -10"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Space\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Physics2::Collision"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "Platform_Ground",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::LinearVelocityY"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "-",
+            "300"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}
