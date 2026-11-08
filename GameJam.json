@@ -521,7 +521,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2952916551236138,
+        "zoomFactor": 0.9296875000000163,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -619,204 +619,10 @@
           "layer": "",
           "name": "Platform_Ground",
           "persistentUuid": "1c4f7ab9-04d4-4cee-8572-96199ce1245c",
-          "width": 448,
+          "width": 585,
           "x": 352,
           "y": 448,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Platform_Ground",
-          "persistentUuid": "672ee5c6-d2bb-4ae4-bc77-78d15064dd68",
-          "width": 128,
-          "x": 800,
-          "y": 384,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Platform_Ground",
-          "persistentUuid": "e595746c-dfaa-4c91-a246-d36934b5a906",
-          "width": 160,
-          "x": 352,
-          "y": 352,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coins",
-          "persistentUuid": "4c79f19c-996c-40e5-a8fb-fcaa13753abd",
-          "width": 0,
-          "x": 884,
-          "y": 364,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coins",
-          "persistentUuid": "ad149014-b1f1-44bd-8a58-27b4aa2a7d41",
-          "width": 0,
-          "x": 836,
-          "y": 364,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coins",
-          "persistentUuid": "4d3402ec-1550-4679-a363-6c1361c0fe53",
-          "width": 0,
-          "x": 860,
-          "y": 364,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coins",
-          "persistentUuid": "e6622e84-477f-4c15-95ff-82ba580b8e3d",
-          "width": 0,
-          "x": 908,
-          "y": 364,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coins",
-          "persistentUuid": "d178725f-6851-40f2-949d-e15a89529086",
-          "width": 0,
-          "x": 812,
-          "y": 364,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coins",
-          "persistentUuid": "f6b391ed-3293-437a-91c2-b0325153bd9c",
-          "width": 0,
-          "x": 436,
-          "y": 428,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coins",
-          "persistentUuid": "f7e2818a-b9f0-43a9-ba6e-135de0e4eb70",
-          "width": 0,
-          "x": 388,
-          "y": 428,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coins",
-          "persistentUuid": "fe3a8599-ae9a-4018-bbf3-c2ae2283b92d",
-          "width": 0,
-          "x": 412,
-          "y": 428,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coins",
-          "persistentUuid": "6723e19a-02e9-437d-a2b1-e33067575ecd",
-          "width": 0,
-          "x": 460,
-          "y": 428,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Coins",
-          "persistentUuid": "47e2b512-edcc-4edf-8975-e5f35b881b08",
-          "width": 0,
-          "x": 364,
-          "y": 428,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1291,7 +1097,7 @@
               "friction": 0.3,
               "restitution": 0.1,
               "linearDamping": 0.1,
-              "angularDamping": 0.1,
+              "angularDamping": 4,
               "gravityScale": 1,
               "layers": 1,
               "masks": 0
@@ -1557,7 +1363,7 @@
                 "60",
                 "yes",
                 "",
-                "5000",
+                "800",
                 "no",
                 "CandleJoint"
               ]
@@ -1639,35 +1445,8 @@
               "parameters": [
                 "Player",
                 "Physics2",
-                "-",
-                "20"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Physics2::RevoluteJointMotorSpeed"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Physics2",
-                    "CandleJoint",
-                    "-",
-                    "10"
-                  ]
-                }
+                "=",
+                "-100"
               ]
             }
           ]
@@ -1693,38 +1472,62 @@
               "parameters": [
                 "Player",
                 "Physics2",
-                "+",
-                "20"
+                "=",
+                "100"
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Physics2::RevoluteJointMotorSpeed"
+                    "inverted": true,
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
-                    "Player",
-                    "Physics2",
-                    "CandleJoint",
-                    "+",
-                    "10"
+                    "",
+                    "\"a\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"d\""
                   ]
                 }
               ]
             }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Player",
+                "Physics2",
+                "=",
+                "0"
+              ]
+            }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1737,12 +1540,6 @@
                 "",
                 "\"Left\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -1754,8 +1551,8 @@
                 "Player",
                 "Physics2",
                 "CandleJoint",
-                "-",
-                "10"
+                "=",
+                "-100 + (abs(AngleDifference(Candle.Angle(), 0)) * 1.5)"
               ]
             }
           ]
@@ -1771,12 +1568,6 @@
                 "",
                 "\"Right\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -1788,8 +1579,122 @@
                 "Player",
                 "Physics2",
                 "CandleJoint",
-                "+",
-                "10"
+                "=",
+                "100 - (abs(AngleDifference(Candle.Angle(), 0)) * 1.5)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "abs(AngleDifference(Candle.Angle(), 0))",
+                    ">=",
+                    "30"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::RevoluteJointMotorSpeed"
+              },
+              "parameters": [
+                "Player",
+                "Physics2",
+                "CandleJoint",
+                "=",
+                "AngleDifference(Candle.Angle(), 0) * 0.5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "abs(AngleDifference(Candle.Angle(), 0))",
+                    "<",
+                    "30"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::RevoluteJointMotorSpeed"
+              },
+              "parameters": [
+                "Player",
+                "Physics2",
+                "CandleJoint",
+                "=",
+                "AngleDifference(Candle.Angle(), 0) * -10"
               ]
             }
           ]
@@ -1825,17 +1730,6 @@
               },
               "parameters": [
                 "Player",
-                "Physics2",
-                "-",
-                "300"
-              ]
-            },
-            {
-              "type": {
-                "value": "Physics2::LinearVelocityY"
-              },
-              "parameters": [
-                "Candle",
                 "Physics2",
                 "-",
                 "300"
