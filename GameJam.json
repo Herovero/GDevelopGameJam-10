@@ -560,6 +560,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/platforms"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/background-lightning"
     }
   ],
   "externalEventsFolderStructure": {
@@ -567,6 +571,9 @@
     "children": [
       {
         "itemName": "PlayerControls"
+      },
+      {
+        "itemName": "Background Lightning"
       },
       {
         "itemName": "Enemies"

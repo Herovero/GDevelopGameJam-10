@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7130377630690525,
+    "zoomFactor": 0.6244537826600103,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -39,6 +39,12 @@
       "persistentUuid": "b0c82f79-c67e-47c9-9982-56f055583e56",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "CandleLightRadius",
+      "persistentUuid": "35ff24a6-6966-4fbd-8cec-654490d1a01d",
+      "type": "number",
+      "value": 200
     }
   ],
   "instances": [
@@ -140,6 +146,22 @@
       "x": 384,
       "y": 322,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Lighting",
+      "name": "Light",
+      "persistentUuid": "d9699294-e6f4-47af-8d3c-d9b5e8f7f83f",
+      "width": 0,
+      "x": 411,
+      "y": 332,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -620,6 +642,11 @@
                       "name": "Bottom",
                       "x": 320,
                       "y": 640
+                    },
+                    {
+                      "name": "Top",
+                      "x": 320,
+                      "y": 70
                     }
                   ],
                   "originPoint": {
@@ -659,6 +686,21 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Light",
+      "persistentUuid": "4083df98-0ca2-496f-a1c9-55161db3db4f",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 200,
+        "color": "255;213;0",
+        "debugMode": false,
+        "texture": ""
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -689,6 +731,9 @@
       },
       {
         "objectName": "Candle"
+      },
+      {
+        "objectName": "Light"
       }
     ]
   },
@@ -827,6 +872,25 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "PlayerControls"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Background Lightning"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -890,6 +954,24 @@
       "isLightingLayer": false,
       "isLocked": false,
       "name": "MobileControls",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
       "renderingType": "",
       "visibility": true,
       "cameras": [],

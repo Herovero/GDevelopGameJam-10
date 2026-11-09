@@ -199,35 +199,7 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Left\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Physics2::RevoluteJointMotorSpeed"
-          },
-          "parameters": [
-            "Player",
-            "Physics2",
-            "CandleJoint",
-            "=",
-            "-100 + (abs(AngleDifference(Candle.Angle(), 0)) * 1.5)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextPressed"
+            "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
             "",
@@ -245,7 +217,7 @@
             "Physics2",
             "CandleJoint",
             "=",
-            "100 - (abs(AngleDifference(Candle.Angle(), 0)) * 1.5)"
+            "(MouseX(\"\", 0) - Player.X()) * 0.5"
           ]
         }
       ]
@@ -262,17 +234,7 @@
             {
               "type": {
                 "inverted": true,
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyFromTextPressed"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
@@ -319,17 +281,7 @@
             {
               "type": {
                 "inverted": true,
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyFromTextPressed"
+                "value": "MouseButtonFromTextPressed"
               },
               "parameters": [
                 "",
