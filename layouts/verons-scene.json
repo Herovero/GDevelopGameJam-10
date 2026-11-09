@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5653158055126412,
+    "zoomFactor": 0.7130377630690525,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -162,6 +162,23 @@
       "x": 911,
       "y": 113,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "Lighting",
+      "name": "CandleVisual",
+      "persistentUuid": "b7fdf1c1-996d-4906-ac55-c40a5f70cc25",
+      "width": 20,
+      "x": 416,
+      "y": 252,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -702,6 +719,79 @@
         "debugMode": false,
         "texture": ""
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "CandleVisual",
+      "persistentUuid": "595909b5-40cc-42bb-b90e-254042992188",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets/sprites/candle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/sprites/candle2.png",
+                  "points": [
+                    {
+                      "name": "Bottom",
+                      "x": 100,
+                      "y": 640
+                    },
+                    {
+                      "name": "Top",
+                      "x": 100,
+                      "y": 70
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -732,6 +822,9 @@
       },
       {
         "objectName": "Candle"
+      },
+      {
+        "objectName": "CandleVisual"
       },
       {
         "objectName": "Light"

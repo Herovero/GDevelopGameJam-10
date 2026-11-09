@@ -69,6 +69,34 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Physics2::Collision"
+          },
+          "parameters": [
+            "Candle",
+            "Physics2",
+            "Platform_Ground",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CandleLightRadius",
+            "=",
+            "0"
+          ]
+        }
+      ]
     }
   ]
 }

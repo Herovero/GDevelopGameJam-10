@@ -23,7 +23,7 @@
             "Player",
             "Physics2",
             "Player.X(\"Top\")",
-            "Player.Y(\"Top\") - 5",
+            "Player.Y(\"Top\") - 10",
             "Candle",
             "Candle.X(\"Bottom\")",
             "Candle.Y(\"Bottom\")",
@@ -36,6 +36,42 @@
             "800",
             "yes",
             "CandleJoint"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Candle"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "CandleVisual",
+            "=",
+            "Candle.X()",
+            "=",
+            "Candle.Y() + 10 - (abs(AngleDifference(Candle.Angle(), 0)) * 0.1)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetAngle"
+          },
+          "parameters": [
+            "CandleVisual",
+            "=",
+            "Candle.Angle()"
           ]
         }
       ]
@@ -95,33 +131,19 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "Physics2::Collision"
+            "value": "KeyFromTextPressed"
           },
           "parameters": [
-            "Candle",
-            "Physics2",
-            "Platform_Ground",
-            ""
+            "",
+            "\"f\""
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Physics2::Remove joint"
-          },
-          "parameters": [
-            "Player",
-            "Physics2",
-            "CandleJoint"
-          ]
-        }
-      ]
+      "actions": []
     }
   ]
 }
