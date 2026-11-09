@@ -488,6 +488,22 @@
         "name": "assets/StartingPixelGround.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sprites/candle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/sprites/candle2.png\"}",
+        "name": "assets/sprites/candle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sprites/candle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/candle2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -564,6 +580,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/background-lightning"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/collision-debug"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/candlejointphysics"
     }
   ],
   "externalEventsFolderStructure": {
@@ -573,7 +597,13 @@
         "itemName": "PlayerControls"
       },
       {
+        "itemName": "CandleJointPhysics"
+      },
+      {
         "itemName": "Background Lightning"
+      },
+      {
+        "itemName": "Collision Debug"
       },
       {
         "itemName": "Enemies"

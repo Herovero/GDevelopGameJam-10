@@ -1,0 +1,127 @@
+{
+  "associatedLayout": "Veron's Scene",
+  "name": "CandleJointPhysics",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::AddRevoluteJointBetweenTwoBodies"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "Player.X(\"Top\")",
+            "Player.Y(\"Top\") - 5",
+            "Candle",
+            "Candle.X(\"Bottom\")",
+            "Candle.Y(\"Bottom\")",
+            "yes",
+            "0",
+            "-60",
+            "60",
+            "yes",
+            "",
+            "800",
+            "yes",
+            "CandleJoint"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Angle"
+          },
+          "parameters": [
+            "Candle",
+            "<=",
+            "-59"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::Remove joint"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "CandleJoint"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Angle"
+          },
+          "parameters": [
+            "Candle",
+            ">=",
+            "59"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::Remove joint"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "CandleJoint"
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Physics2::Collision"
+          },
+          "parameters": [
+            "Candle",
+            "Physics2",
+            "Platform_Ground",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::Remove joint"
+          },
+          "parameters": [
+            "Player",
+            "Physics2",
+            "CandleJoint"
+          ]
+        }
+      ]
+    }
+  ]
+}

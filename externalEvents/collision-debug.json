@@ -1,0 +1,63 @@
+{
+  "associatedLayout": "Veron's Scene",
+  "name": "Collision Debug",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"b\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DebuggerTools::EnableDebugDraw"
+          },
+          "parameters": [
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"b\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "DebuggerTools::EnableDebugDraw"
+          },
+          "parameters": [
+            "",
+            "no",
+            "",
+            "no",
+            "no"
+          ]
+        }
+      ]
+    }
+  ]
+}
