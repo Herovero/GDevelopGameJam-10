@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0973679695629748,
+    "zoomFactor": 1.0269425874981295,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -43,6 +43,12 @@
     {
       "name": "CandleLightRadius",
       "persistentUuid": "568ff6e6-263c-4be0-92b2-ae42c5feb010",
+      "type": "number",
+      "value": 200
+    },
+    {
+      "name": "TargetLightRadius",
+      "persistentUuid": "666ee785-b70d-47b8-bc20-8ae1162a588a",
       "type": "number",
       "value": 200
     },
@@ -678,6 +684,18 @@
           "yGrabOffset": 0
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "persistentUuid": "4ad50b95-205a-4b0e-b3aa-44205a79c127",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -705,6 +723,9 @@
             "objectName": "JumpButton"
           }
         ]
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
