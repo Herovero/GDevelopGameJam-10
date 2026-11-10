@@ -536,14 +536,6 @@
         "name": "assets/sprites/candle_small_empty.png",
         "smoothed": false,
         "userAdded": false
-      },
-      {
-        "file": "assets/sprites/ghost.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/sprites/ghost.png",
-        "smoothed": false,
-        "userAdded": false
       }
     ]
   },
@@ -805,7 +797,7 @@
           "angularDamping": 4,
           "gravityScale": 1,
           "layers": 1,
-          "masks": 3
+          "masks": 1
         }
       ],
       "animations": [
@@ -889,7 +881,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "CandleHUD_Empty",
+      "name": "CandleHUD_Empty2",
       "persistentUuid": "bd110d9c-77e7-4964-ade6-4a1cf660bc70",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -958,110 +950,6 @@
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Ghost",
-      "persistentUuid": "a7f1527e-5a12-432f-b098-69a793166ace",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "Cooldown",
-          "persistentUuid": "cdb193e6-6032-4d0a-8b2e-a71bd64d3572",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "State",
-          "persistentUuid": "5662f023-b694-4d27-8a9a-b5e368d49078",
-          "type": "string",
-          "value": "Attack"
-        },
-        {
-          "name": "PreviousX",
-          "persistentUuid": "6f5cfeb5-a8d4-4e9e-9935-165b39cbd32b",
-          "type": "number",
-          "value": 0
-        }
-      ],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Dynamic",
-          "bullet": false,
-          "fixedRotation": true,
-          "canSleep": true,
-          "shape": "Circle",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [],
-          "density": 5,
-          "friction": 0.1,
-          "restitution": 0,
-          "linearDamping": 2,
-          "angularDamping": 0.1,
-          "gravityScale": 0,
-          "layers": 2,
-          "masks": 1
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/sprites/ghost.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1,
-                        "y": 2
-                      },
-                      {
-                        "x": 32,
-                        "y": 2
-                      },
-                      {
-                        "x": 32,
-                        "y": 31
-                      },
-                      {
-                        "x": 1,
-                        "y": 31
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1083,13 +971,10 @@
         "objectName": "Light"
       },
       {
-        "objectName": "CandleHUD_Empty"
+        "objectName": "CandleHUD_Empty2"
       },
       {
         "objectName": "CandleHUD_Full"
-      },
-      {
-        "objectName": "Ghost"
       }
     ]
   },
@@ -1153,7 +1038,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/ghost-enemy-ai"
+      "referenceTo": "/externalEvents/enemies"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1196,7 +1081,7 @@
         "itemName": "Collision Debug"
       },
       {
-        "itemName": "Ghost Enemy AI"
+        "itemName": "Enemies"
       },
       {
         "itemName": "Platforms"

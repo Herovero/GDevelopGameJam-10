@@ -14,7 +14,7 @@
             "CandleHUD_Full",
             "Resizable",
             "=",
-            "max(0, min(1, Variable(CandleLightRadius) / 400)) * 118"
+            "max(0, min(1, Variable(CandleLightRadius) / 200)) * 118"
           ]
         },
         {
@@ -24,7 +24,7 @@
           "parameters": [
             "CandleHUD_Full",
             "=",
-            "118 - (max(0, min(1, Variable(CandleLightRadius) / 400)) * 118)"
+            "118 - (max(0, min(1, Variable(CandleLightRadius) / 200)) * 118)"
           ]
         },
         {
@@ -34,7 +34,7 @@
           "parameters": [
             "CandleHUD_Full",
             "=",
-            "CandleHUD_Empty.Y() + 118 - (max(0, min(1, Variable(CandleLightRadius) / 400)) * 118)"
+            "CandleHUD_Empty2.Y() + 118 - (max(0, min(1, Variable(CandleLightRadius) / 200)) * 118)"
           ]
         }
       ]

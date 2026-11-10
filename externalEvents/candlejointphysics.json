@@ -29,8 +29,8 @@
             "Candle.Y(\"Bottom\")",
             "yes",
             "0",
-            "-79",
-            "79",
+            "-60",
+            "60",
             "yes",
             "",
             "800",
@@ -86,7 +86,7 @@
           "parameters": [
             "Candle",
             "<=",
-            "-79"
+            "-59"
           ]
         }
       ],
@@ -113,7 +113,7 @@
           "parameters": [
             "Candle",
             ">=",
-            "79"
+            "59"
           ]
         }
       ],
@@ -129,6 +129,21 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"f\""
+          ]
+        }
+      ],
+      "actions": []
     }
   ]
 }

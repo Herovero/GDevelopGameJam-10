@@ -33,22 +33,6 @@
       "actions": [
         {
           "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "CandleLightRadius",
-            "=",
-            "lerp(Variable(CandleLightRadius), Variable(TargetLightRadius), 5 * TimeDelta())"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
             "value": "SetXY"
           },
           "parameters": [
@@ -70,7 +54,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "TargetLightRadius",
+            "CandleLightRadius",
             "-",
             "10 * TimeDelta()"
           ]
@@ -107,7 +91,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "TargetLightRadius",
+            "CandleLightRadius",
             "=",
             "0"
           ]
@@ -144,7 +128,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "TargetLightRadius",
+            "CandleLightRadius",
             "-",
             "50"
           ]
@@ -161,7 +145,7 @@
           "parameters": [
             "CandleLightRadius",
             ">",
-            "400"
+            "200"
           ]
         }
       ],
@@ -173,34 +157,7 @@
           "parameters": [
             "CandleLightRadius",
             "=",
-            "400"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "TargetLightRadius",
-            ">",
-            "400"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "TargetLightRadius",
-            "=",
-            "400"
+            "200"
           ]
         }
       ]
