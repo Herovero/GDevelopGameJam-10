@@ -544,6 +544,126 @@
         "name": "assets/sprites/ghost.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/Torch (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/Torch (1).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm0,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm0,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm1,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm1,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm2,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm2,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm3,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm3,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm4,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm4,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm5,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm5,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm6,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm6,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm7,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm7,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm8,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm8,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm9,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm9,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm10,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm10,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm11,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm11,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm12,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm12,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm13,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm13,100.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -873,7 +993,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Light",
+      "name": "CandleLight",
       "persistentUuid": "4083df98-0ca2-496f-a1c9-55161db3db4f",
       "type": "Lighting::LightObject",
       "variables": [],
@@ -1068,6 +1188,634 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Torch",
+      "persistentUuid": "0f3ef491-520b-4037-abf5-7c4faba23770",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm0,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm1,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm2,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm3,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm4,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm5,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm6,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm7,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm8,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm9,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm10,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm11,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm12,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm13,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 9
+                      },
+                      {
+                        "x": 41,
+                        "y": 55
+                      },
+                      {
+                        "x": 24,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TorchLight",
+      "persistentUuid": "75894c54-ac00-4752-b7f4-6d798c88d82b",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 50,
+        "color": "255;213;0",
+        "debugMode": false,
+        "texture": ""
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1086,13 +1834,19 @@
         "objectName": "Candle"
       },
       {
-        "objectName": "Light"
-      },
-      {
         "objectName": "CandleHUD_Empty"
       },
       {
         "objectName": "CandleHUD_Full"
+      },
+      {
+        "objectName": "Torch"
+      },
+      {
+        "objectName": "CandleLight"
+      },
+      {
+        "objectName": "TorchLight"
       },
       {
         "objectName": "Ghost"
@@ -1184,6 +1938,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/candlehealthhud"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/torch-lightning-system"
     }
   ],
   "externalEventsFolderStructure": {
@@ -1197,6 +1955,9 @@
       },
       {
         "itemName": "Candle Lightning System"
+      },
+      {
+        "itemName": "Torch Lightning System"
       },
       {
         "itemName": "Collision Debug"

@@ -52,7 +52,7 @@
             "value": "SetXY"
           },
           "parameters": [
-            "Light",
+            "CandleLight",
             "=",
             "Candle.X(\"Top\")",
             "=",
@@ -80,7 +80,7 @@
             "value": "Lighting::SetRadius"
           },
           "parameters": [
-            "Light",
+            "CandleLight",
             "CandleLightRadius"
           ]
         }

@@ -1,0 +1,33 @@
+{
+  "associatedLayout": "Veron's Scene",
+  "name": "Torch Lightning System",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "TorchLight",
+            "Torch.X(\"Flame\")",
+            "Torch.Y(\"Flame\")",
+            "\"Lighting\""
+          ]
+        }
+      ]
+    }
+  ]
+}
