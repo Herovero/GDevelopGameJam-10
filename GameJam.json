@@ -504,6 +504,14 @@
         "name": "assets/sprites/candle2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "cavern bg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cavern bg.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
