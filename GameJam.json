@@ -506,18 +506,477 @@
         "userAdded": false
       },
       {
-        "file": "cavern bg.png",
+        "file": "assets/sprites/water droplet.png",
         "kind": "image",
         "metadata": "",
-        "name": "cavern bg.png",
+        "name": "assets/sprites/water droplet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sprites/droplet spawner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/droplet spawner.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sprites/candle_small.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/candle_small.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sprites/candle_small_empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/candle_small_empty.png",
         "smoothed": false,
         "userAdded": false
       }
     ]
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Water_Droplet",
+      "persistentUuid": "36cc6f47-0cc5-43d4-aea7-edfb66200f27",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Circle",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 0.5,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/sprites/water droplet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 9,
+                    "y": 12
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 2
+                      },
+                      {
+                        "x": 1301,
+                        "y": 2
+                      },
+                      {
+                        "x": 1301,
+                        "y": 1702
+                      },
+                      {
+                        "x": 1,
+                        "y": 1702
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Droplet_Spawner",
+      "persistentUuid": "9914b402-20c3-4b96-aee4-e58463e61610",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/sprites/droplet spawner.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 60
+                      },
+                      {
+                        "x": 0,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "CandleVisual",
+      "persistentUuid": "595909b5-40cc-42bb-b90e-254042992188",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets/sprites/candle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/sprites/candle2.png",
+                  "points": [
+                    {
+                      "name": "Bottom",
+                      "x": 100,
+                      "y": 640
+                    },
+                    {
+                      "name": "Top",
+                      "x": 100,
+                      "y": 70
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Candle",
+      "persistentUuid": "00916a0d-6337-420d-b957-4a77827e12cc",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "LightRadius",
+          "persistentUuid": "9ef15fed-24cc-4f0f-a63b-0b6629e83e7a",
+          "type": "number",
+          "value": 200
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 20,
+          "shapeDimensionB": 64,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 0.01,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 4,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "assets/sprites/candle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/sprites/candle2.png",
+                  "points": [
+                    {
+                      "name": "Bottom",
+                      "x": 100,
+                      "y": 640
+                    },
+                    {
+                      "name": "Top",
+                      "x": 100,
+                      "y": 70
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Light",
+      "persistentUuid": "4083df98-0ca2-496f-a1c9-55161db3db4f",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 200,
+        "color": "255;213;0",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CandleHUD_Empty2",
+      "persistentUuid": "bd110d9c-77e7-4964-ade6-4a1cf660bc70",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/sprites/candle_small_empty.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 35,
+                        "y": 0
+                      },
+                      {
+                        "x": 35,
+                        "y": 118
+                      },
+                      {
+                        "x": 2,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 118,
+      "name": "CandleHUD_Full",
+      "persistentUuid": "e598e1a4-9941-4078-84aa-f5d458732cee",
+      "texture": "assets/sprites/candle_small.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 37,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Water_Droplet"
+      },
+      {
+        "objectName": "Droplet_Spawner"
+      },
+      {
+        "objectName": "CandleVisual"
+      },
+      {
+        "objectName": "Candle"
+      },
+      {
+        "objectName": "Light"
+      },
+      {
+        "objectName": "CandleHUD_Empty2"
+      },
+      {
+        "objectName": "CandleHUD_Full"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [],
@@ -587,7 +1046,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/background-lightning"
+      "referenceTo": "/externalEvents/candle-lightning-system"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -596,6 +1055,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/candlejointphysics"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/water-droplet-spawn-system"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/candlehealthhud"
     }
   ],
   "externalEventsFolderStructure": {
@@ -608,7 +1075,7 @@
         "itemName": "CandleJointPhysics"
       },
       {
-        "itemName": "Background Lightning"
+        "itemName": "Candle Lightning System"
       },
       {
         "itemName": "Collision Debug"
@@ -630,6 +1097,12 @@
       },
       {
         "itemName": "SFX & BGM"
+      },
+      {
+        "itemName": "Water Droplet Spawn System"
+      },
+      {
+        "itemName": "CandleHealthHUD"
       }
     ]
   },

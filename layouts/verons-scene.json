@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7130377630690525,
+    "zoomFactor": 1.0973679695629748,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -42,9 +42,15 @@
     },
     {
       "name": "CandleLightRadius",
-      "persistentUuid": "35ff24a6-6966-4fbd-8cec-654490d1a01d",
+      "persistentUuid": "568ff6e6-263c-4be0-92b2-ae42c5feb010",
       "type": "number",
       "value": 200
+    },
+    {
+      "name": "DropletSpawnTimer",
+      "persistentUuid": "c42c82df-87f3-4610-92cd-396c2df99227",
+      "type": "number",
+      "value": 0
     }
   ],
   "instances": [
@@ -179,6 +185,71 @@
       "x": 416,
       "y": 252,
       "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Droplet_Spawner",
+      "persistentUuid": "ec87534b-78cd-4c61-aaec-c09235d93459",
+      "width": 30,
+      "x": 551,
+      "y": 216,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Water_Droplet",
+      "persistentUuid": "b3bc0337-45c3-4f78-8ae3-15693f07df3f",
+      "width": 0,
+      "x": 485,
+      "y": 239,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "HUD",
+      "name": "CandleHUD_Full",
+      "persistentUuid": "088ea3f6-52aa-492c-bb1f-8744684ba299",
+      "width": 0,
+      "x": 19,
+      "y": 20,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "HUD",
+      "name": "CandleHUD_Empty2",
+      "persistentUuid": "165eb8f8-08ee-492b-bb3c-dbb56a8b096b",
+      "width": 0,
+      "x": 19,
+      "y": 20,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -596,7 +667,7 @@
           "linearDamping": 0.1,
           "angularDamping": 0.1,
           "gravityScale": 1,
-          "layers": 3,
+          "layers": 1,
           "masks": 1
         },
         {
@@ -605,191 +676,6 @@
           "canBeGrabbed": false,
           "platformType": "NormalPlatform",
           "yGrabOffset": 0
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Candle",
-      "persistentUuid": "00916a0d-6337-420d-b957-4a77827e12cc",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Dynamic",
-          "bullet": false,
-          "fixedRotation": false,
-          "canSleep": true,
-          "shape": "Box",
-          "shapeDimensionA": 20,
-          "shapeDimensionB": 64,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [],
-          "density": 0.01,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 4,
-          "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
-        }
-      ],
-      "animations": [
-        {
-          "name": "assets/sprites/candle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/sprites/candle2.png",
-                  "points": [
-                    {
-                      "name": "Bottom",
-                      "x": 100,
-                      "y": 640
-                    },
-                    {
-                      "name": "Top",
-                      "x": 100,
-                      "y": 70
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "Light",
-      "persistentUuid": "4083df98-0ca2-496f-a1c9-55161db3db4f",
-      "type": "Lighting::LightObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "radius": 200,
-        "color": "255;213;0",
-        "debugMode": false,
-        "texture": ""
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "CandleVisual",
-      "persistentUuid": "595909b5-40cc-42bb-b90e-254042992188",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "assets/sprites/candle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/sprites/candle2.png",
-                  "points": [
-                    {
-                      "name": "Bottom",
-                      "x": 100,
-                      "y": 640
-                    },
-                    {
-                      "name": "Top",
-                      "x": 100,
-                      "y": 70
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ]
     }
@@ -819,15 +705,6 @@
             "objectName": "JumpButton"
           }
         ]
-      },
-      {
-        "objectName": "Candle"
-      },
-      {
-        "objectName": "CandleVisual"
-      },
-      {
-        "objectName": "Light"
       }
     ]
   },
@@ -986,7 +863,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "Background Lightning"
+      "target": "Candle Lightning System"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
@@ -994,6 +871,20 @@
         "includeConfig": 0
       },
       "target": "Collision Debug"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Water Droplet Spawn System"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "CandleHealthHUD"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1084,6 +975,63 @@
       "visibility": true,
       "cameras": [],
       "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "HUD",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300,
+            "shadowDistance": 2000,
+            "shadowNormalBias": 1
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "shadowRenderingMode": "fittedToCameraView",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [

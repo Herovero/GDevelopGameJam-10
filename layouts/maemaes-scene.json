@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.9934433498259749,
+    "zoomFactor": 0.7130377630690525,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -62,15 +62,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 797,
-      "hidden": true,
+      "height": 384,
       "layer": "Background",
       "locked": true,
       "name": "Background",
       "persistentUuid": "9d4a2623-239c-44d1-95a4-076307aa3170",
-      "width": 1343,
-      "x": -31,
-      "y": -30,
+      "width": 640,
+      "x": 320,
+      "y": 160,
       "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
@@ -124,23 +123,6 @@
       "x": 352,
       "y": 448,
       "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Candle",
-      "persistentUuid": "c9578313-8694-42c0-8ad4-fef9d9dffbc1",
-      "width": 64,
-      "x": 384,
-      "y": 322,
-      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -295,7 +277,7 @@
       "height": 64,
       "name": "Background",
       "persistentUuid": "874faafd-7221-4378-a25e-cca934c3e2a3",
-      "texture": "cavern bg.png",
+      "texture": "assets\\PixelBackground.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
       "variables": [],
@@ -569,97 +551,6 @@
           "yGrabOffset": 0
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Candle",
-      "persistentUuid": "00916a0d-6337-420d-b957-4a77827e12cc",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Dynamic",
-          "bullet": false,
-          "fixedRotation": false,
-          "canSleep": true,
-          "shape": "Box",
-          "shapeDimensionA": 100,
-          "shapeDimensionB": 600,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [],
-          "density": 0.01,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 4,
-          "gravityScale": 1,
-          "layers": 1,
-          "masks": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/sprites/candle.png",
-                  "points": [
-                    {
-                      "name": "Bottom",
-                      "x": 320,
-                      "y": 640
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 320,
-                    "y": 640
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 260,
-                        "y": 10
-                      },
-                      {
-                        "x": 344,
-                        "y": 7
-                      },
-                      {
-                        "x": 340,
-                        "y": 640
-                      },
-                      {
-                        "x": 255,
-                        "y": 639.5
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -687,9 +578,6 @@
             "objectName": "JumpButton"
           }
         ]
-      },
-      {
-        "objectName": "Candle"
       }
     ]
   },
@@ -730,6 +618,13 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "PlayerControls"
     },
     {
       "disabled": true,
@@ -828,27 +723,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "PlayerControls"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "CandleJointPhysics"
-    },
-    {
-      "type": "BuiltinCommonInstructions::Link",
-      "include": {
-        "includeConfig": 0
-      },
-      "target": "Background Lightning"
     }
   ],
   "layers": [
