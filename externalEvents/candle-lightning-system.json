@@ -1,0 +1,139 @@
+{
+  "associatedLayout": "Veron's Scene",
+  "name": "Candle Lightning System",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetLayerAmbientLightColor"
+          },
+          "parameters": [
+            "",
+            "",
+            "\"20;20;30\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "Light",
+            "=",
+            "Candle.X(\"Top\")",
+            "=",
+            "Candle.Y(\"Top\")"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CandleLightRadius",
+            "-",
+            "10 * TimeDelta()"
+          ]
+        },
+        {
+          "type": {
+            "value": "Lighting::SetRadius"
+          },
+          "parameters": [
+            "Light",
+            "CandleLightRadius"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Physics2::Collision"
+          },
+          "parameters": [
+            "Candle",
+            "Physics2",
+            "Platform_Ground",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CandleLightRadius",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Physics2::Collision"
+          },
+          "parameters": [
+            "Water_Droplet",
+            "Physics2",
+            "Candle",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Water_Droplet",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CandleLightRadius",
+            "-",
+            "50"
+          ]
+        }
+      ]
+    }
+  ]
+}

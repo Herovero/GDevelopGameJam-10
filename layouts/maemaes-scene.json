@@ -126,23 +126,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Candle",
-      "persistentUuid": "c9578313-8694-42c0-8ad4-fef9d9dffbc1",
-      "width": 64,
-      "x": 384,
-      "y": 322,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [
@@ -568,97 +551,6 @@
           "yGrabOffset": 0
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Candle",
-      "persistentUuid": "00916a0d-6337-420d-b957-4a77827e12cc",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Dynamic",
-          "bullet": false,
-          "fixedRotation": false,
-          "canSleep": true,
-          "shape": "Box",
-          "shapeDimensionA": 100,
-          "shapeDimensionB": 600,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [],
-          "density": 0.01,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 0.1,
-          "angularDamping": 4,
-          "gravityScale": 1,
-          "layers": 1,
-          "masks": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/sprites/candle.png",
-                  "points": [
-                    {
-                      "name": "Bottom",
-                      "x": 320,
-                      "y": 640
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 320,
-                    "y": 640
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 260,
-                        "y": 10
-                      },
-                      {
-                        "x": 344,
-                        "y": 7
-                      },
-                      {
-                        "x": 340,
-                        "y": 640
-                      },
-                      {
-                        "x": 255,
-                        "y": 639.5
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -686,9 +578,6 @@
             "objectName": "JumpButton"
           }
         ]
-      },
-      {
-        "objectName": "Candle"
       }
     ]
   },
