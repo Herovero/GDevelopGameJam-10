@@ -55,15 +55,6 @@
             "Ghost.Physics2::MassCenterX()",
             "Ghost.Physics2::MassCenterY()"
           ]
-        },
-        {
-          "type": {
-            "value": "ChangeColor"
-          },
-          "parameters": [
-            "Ghost",
-            "\"255;0;0\""
-          ]
         }
       ]
     },
@@ -179,6 +170,17 @@
             "=",
             "\"Retreat\""
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "Hits",
+            "+",
+            "1"
+          ]
         }
       ]
     },
@@ -210,15 +212,6 @@
             "max(Ghost.Y(), Candle.Y() + 20)",
             "Ghost.Physics2::MassCenterX()",
             "Ghost.Physics2::MassCenterY()"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeColor"
-          },
-          "parameters": [
-            "Ghost",
-            "\"0;24;255\""
           ]
         }
       ]
@@ -273,9 +266,116 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "Ghost",
+            "\"255;0;0\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "Ghost",
+            "\"0;24;255\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "Hits",
+            ">=",
+            "5"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Fading\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Fading\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Ghost",
+            "Opacity",
+            "-",
+            "300 * TimeDelta()"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "Ghost",
+                "Opacity",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Ghost",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

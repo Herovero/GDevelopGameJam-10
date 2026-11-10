@@ -984,6 +984,12 @@
           "persistentUuid": "6f5cfeb5-a8d4-4e9e-9935-165b39cbd32b",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "Hits",
+          "persistentUuid": "0054fa34-70ca-4600-b343-0645db44bbc0",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
