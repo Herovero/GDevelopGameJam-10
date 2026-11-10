@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2121641972173935,
+    "zoomFactor": 0.6672773998330126,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -168,7 +168,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "Lighting",
-      "name": "Light",
+      "name": "CandleLight",
       "persistentUuid": "d9699294-e6f4-47af-8d3c-d9b5e8f7f83f",
       "width": 0,
       "x": 911,
@@ -188,7 +188,7 @@
       "name": "CandleVisual",
       "persistentUuid": "b7fdf1c1-996d-4906-ac55-c40a5f70cc25",
       "width": 20,
-      "x": 416,
+      "x": 429,
       "y": 252,
       "zOrder": 9,
       "numberProperties": [],
@@ -250,12 +250,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Ghost",
-      "persistentUuid": "8f124850-82b2-4d21-b3af-37fbd08be737",
+      "name": "Torch",
+      "persistentUuid": "251a2bdf-afdd-4d8d-bbc0-e7706596081b",
       "width": 0,
-      "x": 826,
-      "y": 326,
-      "zOrder": 15,
+      "x": 642,
+      "y": 279,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -898,6 +898,13 @@
         "includeConfig": 0
       },
       "target": "Ghost Enemy AI"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Torch Lightning System"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

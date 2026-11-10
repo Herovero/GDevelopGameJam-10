@@ -31,6 +31,124 @@
       "conditions": [
         {
           "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Ghost",
+            "RandomInRange(250, SceneWindowWidth() - 300)",
+            "RandomInRange(100, SceneWindowHeight() - 150)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Ghost",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Spawning\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Spawning\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Ghost",
+            "Opacity",
+            "+",
+            "300 * TimeDelta()"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "Ghost",
+                "Opacity",
+                ">=",
+                "255"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Ghost",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Ghost",
+                "State",
+                "=",
+                "\"Attack\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "StringObjectVariable"
           },
           "parameters": [
@@ -54,15 +172,6 @@
             "Candle.Y()",
             "Ghost.Physics2::MassCenterX()",
             "Ghost.Physics2::MassCenterY()"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeColor"
-          },
-          "parameters": [
-            "Ghost",
-            "\"255;0;0\""
           ]
         }
       ]
@@ -154,6 +263,17 @@
         },
         {
           "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Attack\""
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
@@ -178,6 +298,17 @@
             "State",
             "=",
             "\"Retreat\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "Hits",
+            "+",
+            "1"
           ]
         }
       ]
@@ -211,7 +342,65 @@
             "Ghost.Physics2::MassCenterX()",
             "Ghost.Physics2::MassCenterY()"
           ]
-        },
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    "Candle",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    "\"Cooldown\"",
+                    ">",
+                    "3"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Ghost",
+                "State",
+                "=",
+                "\"Attack\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
         {
           "type": {
             "value": "ChangeColor"
@@ -228,33 +417,13 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "value": "NumberObjectVariable"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Ghost",
-                "\"Cooldown\"",
-                ">",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Ghost",
-                "Candle",
-                "250",
-                ""
-              ]
-            }
+          "parameters": [
+            "Ghost",
+            "Hits",
+            ">=",
+            "5"
           ]
         }
       ],
@@ -267,15 +436,68 @@
             "Ghost",
             "State",
             "=",
-            "\"Attack\""
+            "\"Fading\""
           ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Fading\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Ghost",
+            "Opacity",
+            "-",
+            "300 * TimeDelta()"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "Ghost",
+                "Opacity",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Ghost",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
