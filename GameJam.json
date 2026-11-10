@@ -977,7 +977,7 @@
           "name": "State",
           "persistentUuid": "5662f023-b694-4d27-8a9a-b5e368d49078",
           "type": "string",
-          "value": "Attack"
+          "value": "Spawning"
         },
         {
           "name": "PreviousX",

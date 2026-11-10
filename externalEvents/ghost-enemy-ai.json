@@ -31,6 +31,124 @@
       "conditions": [
         {
           "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Ghost",
+            "RandomInRange(250, SceneWindowWidth() - 300)",
+            "RandomInRange(100, SceneWindowHeight() - 150)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Ghost",
+            "Opacity",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Spawning\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Spawning\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Ghost",
+            "Opacity",
+            "+",
+            "300 * TimeDelta()"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::Value"
+              },
+              "parameters": [
+                "Ghost",
+                "Opacity",
+                ">=",
+                "255"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Ghost",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Ghost",
+                "State",
+                "=",
+                "\"Attack\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "StringObjectVariable"
           },
           "parameters": [
@@ -145,6 +263,17 @@
         },
         {
           "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Attack\""
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
@@ -214,53 +343,55 @@
             "Ghost.Physics2::MassCenterY()"
           ]
         }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      ],
+      "events": [
         {
-          "type": {
-            "value": "BuiltinCommonInstructions::Or"
-          },
-          "parameters": [],
-          "subInstructions": [
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
-                "value": "CompareObjectTimer"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Ghost",
-                "\"Cooldown\"",
-                ">",
-                "3"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "Distance"
-              },
-              "parameters": [
-                "Ghost",
-                "Candle",
-                "250",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    "Candle",
+                    "250",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    "\"Cooldown\"",
+                    ">",
+                    "3"
+                  ]
+                }
               ]
             }
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetStringObjectVariable"
-          },
-          "parameters": [
-            "Ghost",
-            "State",
-            "=",
-            "\"Attack\""
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Ghost",
+                "State",
+                "=",
+                "\"Attack\""
+              ]
+            }
           ]
         }
       ]
@@ -270,15 +401,6 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
-        {
-          "type": {
-            "value": "ChangeColor"
-          },
-          "parameters": [
-            "Ghost",
-            "\"255;0;0\""
-          ]
-        },
         {
           "type": {
             "value": "ChangeColor"
