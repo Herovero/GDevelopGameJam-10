@@ -1,0 +1,281 @@
+{
+  "associatedLayout": "Veron's Scene",
+  "name": "Ghost Enemy AI",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Ghost",
+            "\"Cooldown\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Attack\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::ApplyForceTowardPosition"
+          },
+          "parameters": [
+            "Ghost",
+            "Physics2",
+            "5",
+            "Candle.X()",
+            "Candle.Y()",
+            "Ghost.Physics2::MassCenterX()",
+            "Ghost.Physics2::MassCenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "Ghost",
+            "\"255;0;0\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Ghost",
+            "<",
+            "Ghost.PreviousX"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Ghost",
+            "Flippable",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PosX"
+          },
+          "parameters": [
+            "Ghost",
+            ">",
+            "Ghost.PreviousX"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Ghost",
+            "Flippable",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "PreviousX",
+            "=",
+            "Ghost.X()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Physics2::Collision"
+          },
+          "parameters": [
+            "Ghost",
+            "Physics2",
+            "Candle",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Ghost",
+            "\"Cooldown\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Retreat\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "StringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Retreat\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::ApplyForceTowardPosition"
+          },
+          "parameters": [
+            "Ghost",
+            "Physics2",
+            "1",
+            "Ghost.X() + (Ghost.X() - Candle.X())",
+            "max(Ghost.Y(), Candle.Y() + 20)",
+            "Ghost.Physics2::MassCenterX()",
+            "Ghost.Physics2::MassCenterY()"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeColor"
+          },
+          "parameters": [
+            "Ghost",
+            "\"0;24;255\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Ghost",
+                "\"Cooldown\"",
+                ">",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Ghost",
+                "Candle",
+                "250",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetStringObjectVariable"
+          },
+          "parameters": [
+            "Ghost",
+            "State",
+            "=",
+            "\"Attack\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}
