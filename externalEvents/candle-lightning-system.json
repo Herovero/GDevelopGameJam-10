@@ -33,6 +33,22 @@
       "actions": [
         {
           "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CandleLightRadius",
+            "=",
+            "Lerp(Variable(CandleLightRadius), Variable(TargetLightRadius), 5 * TimeDelta())"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
             "value": "SetXY"
           },
           "parameters": [
