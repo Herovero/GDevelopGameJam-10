@@ -38,7 +38,7 @@
           "parameters": [
             "CandleLightRadius",
             "=",
-            "Lerp(Variable(CandleLightRadius), Variable(TargetLightRadius), 5 * TimeDelta())"
+            "lerp(Variable(CandleLightRadius), Variable(TargetLightRadius), 5 * TimeDelta())"
           ]
         }
       ]
@@ -70,7 +70,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "CandleLightRadius",
+            "TargetLightRadius",
             "-",
             "10 * TimeDelta()"
           ]
@@ -107,7 +107,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "CandleLightRadius",
+            "TargetLightRadius",
             "=",
             "0"
           ]
@@ -144,7 +144,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "CandleLightRadius",
+            "TargetLightRadius",
             "-",
             "50"
           ]
@@ -161,7 +161,7 @@
           "parameters": [
             "CandleLightRadius",
             ">",
-            "200"
+            "400"
           ]
         }
       ],
@@ -173,7 +173,34 @@
           "parameters": [
             "CandleLightRadius",
             "=",
-            "200"
+            "400"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "TargetLightRadius",
+            ">",
+            "400"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TargetLightRadius",
+            "=",
+            "400"
           ]
         }
       ]
