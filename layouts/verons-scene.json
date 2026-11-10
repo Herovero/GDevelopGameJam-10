@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0973679695629748,
+    "zoomFactor": 1.2121641972173935,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -44,7 +44,13 @@
       "name": "CandleLightRadius",
       "persistentUuid": "568ff6e6-263c-4be0-92b2-ae42c5feb010",
       "type": "number",
-      "value": 200
+      "value": 400
+    },
+    {
+      "name": "TargetLightRadius",
+      "persistentUuid": "666ee785-b70d-47b8-bc20-8ae1162a588a",
+      "type": "number",
+      "value": 400
     },
     {
       "name": "DropletSpawnTimer",
@@ -211,22 +217,6 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
-      "name": "Water_Droplet",
-      "persistentUuid": "b3bc0337-45c3-4f78-8ae3-15693f07df3f",
-      "width": 0,
-      "x": 485,
-      "y": 239,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
       "layer": "HUD",
       "name": "CandleHUD_Full",
       "persistentUuid": "088ea3f6-52aa-492c-bb1f-8744684ba299",
@@ -244,12 +234,28 @@
       "height": 0,
       "keepRatio": true,
       "layer": "HUD",
-      "name": "CandleHUD_Empty2",
+      "name": "CandleHUD_Empty",
       "persistentUuid": "165eb8f8-08ee-492b-bb3c-dbb56a8b096b",
       "width": 0,
       "x": 19,
       "y": 20,
       "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ghost",
+      "persistentUuid": "8f124850-82b2-4d21-b3af-37fbd08be737",
+      "width": 0,
+      "x": 826,
+      "y": 326,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -885,6 +891,13 @@
         "includeConfig": 0
       },
       "target": "CandleHealthHUD"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Ghost Enemy AI"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
