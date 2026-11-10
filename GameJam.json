@@ -520,6 +520,22 @@
         "name": "assets/sprites/droplet spawner.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sprites/candle_small.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/candle_small.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sprites/candle_small_empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/candle_small_empty.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -753,6 +769,7 @@
       "variables": [
         {
           "name": "LightRadius",
+          "persistentUuid": "9ef15fed-24cc-4f0f-a63b-0b6629e83e7a",
           "type": "number",
           "value": 200
         }
@@ -860,6 +877,79 @@
         "debugMode": false,
         "texture": ""
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CandleHUD_Empty2",
+      "persistentUuid": "bd110d9c-77e7-4964-ade6-4a1cf660bc70",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/sprites/candle_small_empty.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 0
+                      },
+                      {
+                        "x": 35,
+                        "y": 0
+                      },
+                      {
+                        "x": 35,
+                        "y": 118
+                      },
+                      {
+                        "x": 2,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 118,
+      "name": "CandleHUD_Full",
+      "persistentUuid": "e598e1a4-9941-4078-84aa-f5d458732cee",
+      "texture": "assets/sprites/candle_small.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 37,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -879,6 +969,12 @@
       },
       {
         "objectName": "Light"
+      },
+      {
+        "objectName": "CandleHUD_Empty2"
+      },
+      {
+        "objectName": "CandleHUD_Full"
       }
     ]
   },
@@ -963,6 +1059,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/water-droplet-spawn-system"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/candlehealthhud"
     }
   ],
   "externalEventsFolderStructure": {
@@ -1000,6 +1100,9 @@
       },
       {
         "itemName": "Water Droplet Spawn System"
+      },
+      {
+        "itemName": "CandleHealthHUD"
       }
     ]
   },

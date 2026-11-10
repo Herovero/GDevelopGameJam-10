@@ -134,6 +134,33 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CandleLightRadius",
+            ">",
+            "200"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CandleLightRadius",
+            "=",
+            "200"
+          ]
+        }
+      ]
     }
   ]
 }
