@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 4.567554687500089,
+    "zoomFactor": 0.645510570331163,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -755,7 +755,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/animated sprites/flame/flame001.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -791,7 +797,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/animated sprites/flame/flame002.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -827,7 +839,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/animated sprites/flame/flame003.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -863,7 +881,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/animated sprites/flame/flame004.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -899,7 +923,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/animated sprites/flame/flame005.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -935,7 +965,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/animated sprites/flame/flame006.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -983,7 +1019,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/animated sprites/flame/flame_smoke007.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1019,7 +1061,13 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets/animated sprites/flame/flame_empty.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -1281,6 +1329,13 @@
         "includeConfig": 0
       },
       "target": "Torch Lightning System"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "BGM"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",

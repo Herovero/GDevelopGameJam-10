@@ -744,6 +744,76 @@
         "name": "assets/animated sprites/flame/flame_empty.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sfx/universfield-water-drop-131023.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/universfield-water-drop-131023.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/Blow Sound Effects Human Blow Candle 2 SFX Producer.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/Blow Sound Effects Human Blow Candle 2 SFX Producer.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/dragon-studio-ghost-horror-sound-382709.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/dragon-studio-ghost-horror-sound-382709.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/ghost_appear_sfx.MP3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/ghost_appear_sfx.MP3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/candle_hit_sfx.MP3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/candle_hit_sfx.MP3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/Burning Candle Meditation ~ Relaxing Music for Sleep & Study.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/Burning Candle Meditation ~ Relaxing Music for Sleep & Study.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bgm/Cavern 8-Bit Music.MP3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/bgm/Cavern 8-Bit Music.MP3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -2090,10 +2160,6 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/sfx--bgm"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/ghost-enemy-ai"
     },
     {
@@ -2123,6 +2189,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/torch-lightning-system"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/bgm"
     }
   ],
   "externalEventsFolderStructure": {
@@ -2159,13 +2229,13 @@
         "itemName": "MainMenu"
       },
       {
-        "itemName": "SFX & BGM"
-      },
-      {
         "itemName": "Water Droplet Spawn System"
       },
       {
         "itemName": "CandleHealthHUD"
+      },
+      {
+        "itemName": "BGM"
       }
     ]
   },

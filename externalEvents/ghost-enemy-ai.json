@@ -70,6 +70,18 @@
             "=",
             "\"Spawning\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets/sfx/ghost_appear_sfx.MP3",
+            "",
+            "70",
+            "1"
+          ]
         }
       ]
     },
@@ -310,6 +322,18 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets/sfx/candle_hit_sfx.MP3",
+            "",
+            "80",
+            "RandomFloatInRange(0.8, 1.2)"
+          ]
         }
       ]
     },
@@ -470,6 +494,31 @@
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sfx/ghost_appear_sfx.MP3",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
