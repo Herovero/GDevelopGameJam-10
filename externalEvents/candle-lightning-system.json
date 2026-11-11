@@ -24,6 +24,19 @@
             "",
             "\"20;20;30\""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/sfx/Burning Candle Meditation ~ Relaxing Music for Sleep & Study.mp3",
+            "1",
+            "",
+            "100",
+            "1"
+          ]
         }
       ]
     },
@@ -122,6 +135,25 @@
             "=",
             "\"Vanish\""
           ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Unstick"
+          },
+          "parameters": [
+            "Candle",
+            "Sticker",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
         }
       ],
       "events": [
@@ -146,6 +178,31 @@
               "parameters": [
                 "Flame",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sfx/Blow Sound Effects Human Blow Candle 2 SFX Producer.mp3",
+                "",
+                "50",
+                "1"
               ]
             }
           ]
@@ -184,8 +241,8 @@
           },
           "parameters": [
             "TargetLightRadius",
-            "-",
-            "50"
+            "=",
+            "0"
           ]
         }
       ]
@@ -269,6 +326,32 @@
             "TargetLightRadius",
             "=",
             "400"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CandleLightRadius",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "CandleLight",
+            ""
           ]
         }
       ]

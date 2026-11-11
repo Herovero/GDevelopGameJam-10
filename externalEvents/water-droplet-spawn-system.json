@@ -147,6 +147,18 @@
       "actions": [
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "assets/sfx/universfield-water-drop-131023.mp3",
+            "",
+            "40",
+            "RandomFloatInRange(0.8, 1.2)"
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
