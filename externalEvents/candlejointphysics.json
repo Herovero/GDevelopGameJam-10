@@ -20,20 +20,9 @@
             "value": "Sticker::Sticker::Stick"
           },
           "parameters": [
-            "CandleHolder",
-            "Sticker",
-            "Player",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Sticker::Sticker::Stick"
-          },
-          "parameters": [
             "Candle",
             "Sticker",
-            "Player",
+            "CandleHolder",
             ""
           ]
         },
@@ -43,6 +32,24 @@
           },
           "parameters": [
             "Candle"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "CandleHolder",
+            "=",
+            "Player.X(\"Hold\")",
+            "=",
+            "Player.Y(\"Hold\")"
           ]
         }
       ]
@@ -195,6 +202,17 @@
           },
           "parameters": [
             "CandleVisual"
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "CandleHolder",
+            "Sticker",
+            "Player",
+            ""
           ]
         }
       ]

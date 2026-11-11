@@ -179,6 +179,14 @@
                 "Flame",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
             }
           ]
         },
