@@ -814,6 +814,54 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle2 .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle2 .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle4 .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle4 .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle6.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2029,8 +2077,8 @@
                   ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 10,
+                    "y": 6
                   },
                   "centerPoint": {
                     "automatic": true,
