@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6672773998330126,
+    "zoomFactor": 1.384119804630715,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -69,8 +69,8 @@
       "name": "Player",
       "persistentUuid": "4ded1d81-e820-41d3-868a-3f314e5850bd",
       "width": 79,
-      "x": 368,
-      "y": 320,
+      "x": 426,
+      "y": 411,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -147,23 +147,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Candle",
-      "persistentUuid": "c9578313-8694-42c0-8ad4-fef9d9dffbc1",
-      "width": 20,
-      "x": 374,
-      "y": 254,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -174,23 +157,6 @@
       "x": 911,
       "y": 113,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "Lighting",
-      "name": "CandleVisual",
-      "persistentUuid": "b7fdf1c1-996d-4906-ac55-c40a5f70cc25",
-      "width": 20,
-      "x": 429,
-      "y": 252,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -253,9 +219,57 @@
       "name": "Torch",
       "persistentUuid": "251a2bdf-afdd-4d8d-bbc0-e7706596081b",
       "width": 0,
-      "x": 642,
-      "y": 279,
+      "x": 747,
+      "y": 281,
       "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Candle",
+      "persistentUuid": "60858f30-7b89-407c-8ede-e6c67ab8c018",
+      "width": 0,
+      "x": 464,
+      "y": 381,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CandleVisual",
+      "persistentUuid": "1d3da7d4-c428-4964-83e4-c5a149dbf0ef",
+      "width": 0,
+      "x": 464,
+      "y": 381,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CandleHolder",
+      "persistentUuid": "8ad2fa9e-6098-46f3-a6b8-3880da85ac6f",
+      "width": 0,
+      "x": 460,
+      "y": 416,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -286,14 +300,14 @@
           "shapeOffsetY": 0,
           "polygonOrigin": "Center",
           "vertices": [],
-          "density": 5,
+          "density": 1,
           "friction": 0.3,
           "restitution": 0.1,
-          "linearDamping": 2,
+          "linearDamping": 0.1,
           "angularDamping": 0.1,
           "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
+          "layers": 4,
+          "masks": 4
         },
         {
           "name": "SmoothCamera",
@@ -346,6 +360,12 @@
           "OldX": 9000.000000007454,
           "OldY": 9000.000000007454,
           "IsCalledManually": false
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
         }
       ],
       "animations": [
@@ -365,6 +385,11 @@
                       "name": "Top",
                       "x": 16,
                       "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 32,
+                      "y": 16
                     }
                   ],
                   "originPoint": {
@@ -673,8 +698,8 @@
           "linearDamping": 0.1,
           "angularDamping": 0.1,
           "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
+          "layers": 4,
+          "masks": 7
         },
         {
           "name": "Platform",
@@ -961,24 +986,6 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "MobileControls",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 128,
       "ambientLightColorG": 128,
       "ambientLightColorR": 128,
@@ -991,6 +998,24 @@
       "isLightingLayer": true,
       "isLocked": false,
       "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "MobileControls",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -1107,6 +1132,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     },
     {
       "name": "Tween",
