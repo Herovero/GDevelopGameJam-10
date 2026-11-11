@@ -119,12 +119,13 @@
       "conditions": [
         {
           "type": {
-            "value": "Physics2::Collision"
+            "value": "CollisionNP"
           },
           "parameters": [
             "Water_Droplet",
-            "Physics2",
             "Candle",
+            "",
+            "",
             ""
           ]
         }
@@ -147,6 +148,35 @@
             "TargetLightRadius",
             "-",
             "50"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Candle",
+            "Torch",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TargetLightRadius",
+            "=",
+            "400"
           ]
         }
       ]

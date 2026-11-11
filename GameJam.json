@@ -664,6 +664,22 @@
         "name": "assets/animated sprites/torch/_a_frm13,100.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sprites/Candle/candle_holder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/Candle/candle_holder.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sprites/Candle/candle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/Candle/candle.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -698,8 +714,8 @@
           "linearDamping": 0.1,
           "angularDamping": 0.1,
           "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
+          "layers": 7,
+          "masks": 6
         }
       ],
       "animations": [
@@ -815,7 +831,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "CandleVisual",
       "persistentUuid": "595909b5-40cc-42bb-b90e-254042992188",
@@ -836,17 +852,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/sprites/candle2.png",
+                  "image": "assets/sprites/Candle/candle.png",
                   "points": [
                     {
                       "name": "Bottom",
-                      "x": 100,
-                      "y": 640
-                    },
-                    {
-                      "name": "Top",
-                      "x": 100,
-                      "y": 70
+                      "x": 5.5,
+                      "y": 31
                     }
                   ],
                   "originPoint": {
@@ -867,16 +878,16 @@
                         "y": 0
                       },
                       {
-                        "x": 0,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 31
                       },
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 31
                       }
                     ]
                   ]
@@ -888,7 +899,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Candle",
       "persistentUuid": "00916a0d-6337-420d-b957-4a77827e12cc",
@@ -912,20 +923,26 @@
           "fixedRotation": false,
           "canSleep": true,
           "shape": "Box",
-          "shapeDimensionA": 20,
-          "shapeDimensionB": 64,
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
           "shapeOffsetX": 0,
           "shapeOffsetY": 0,
           "polygonOrigin": "Center",
           "vertices": [],
-          "density": 0.01,
+          "density": 0.7,
           "friction": 0.3,
           "restitution": 0.1,
           "linearDamping": 0.1,
           "angularDamping": 4,
           "gravityScale": 1,
           "layers": 1,
-          "masks": 3
+          "masks": 6
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
         }
       ],
       "animations": [
@@ -940,17 +957,17 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/sprites/candle2.png",
+                  "image": "assets/sprites/Candle/candle.png",
                   "points": [
                     {
-                      "name": "Bottom",
-                      "x": 100,
-                      "y": 640
+                      "name": "Top",
+                      "x": 5.5,
+                      "y": 1
                     },
                     {
-                      "name": "Top",
-                      "x": 100,
-                      "y": 70
+                      "name": "Bottom",
+                      "x": 5.5,
+                      "y": 31
                     }
                   ],
                   "originPoint": {
@@ -971,16 +988,16 @@
                         "y": 0
                       },
                       {
-                        "x": 0,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 31
                       },
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 31
                       }
                     ]
                   ]
@@ -1190,7 +1207,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Torch",
       "persistentUuid": "0f3ef491-520b-4037-abf5-7c4faba23770",
@@ -1232,20 +1249,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1274,20 +1291,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1316,20 +1333,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1358,20 +1375,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1400,20 +1417,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1442,20 +1459,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1484,20 +1501,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1526,20 +1543,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1568,20 +1585,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1610,20 +1627,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1652,20 +1669,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1694,20 +1711,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1736,20 +1753,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1778,20 +1795,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 9
+                        "x": 25,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 9
+                        "x": 36,
+                        "y": 18
                       },
                       {
-                        "x": 41,
-                        "y": 55
+                        "x": 36,
+                        "y": 30
                       },
                       {
-                        "x": 24,
-                        "y": 55
+                        "x": 25,
+                        "y": 30
                       }
                     ]
                   ]
@@ -1816,6 +1833,103 @@
         "debugMode": false,
         "texture": ""
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CandleHolder",
+      "persistentUuid": "f9b0b678-781b-45c4-addc-8f5622a4faee",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Kinematic",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/sprites/Candle/candle_holder.png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 10,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 50
+                      },
+                      {
+                        "x": 0,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1850,6 +1964,9 @@
       },
       {
         "objectName": "Ghost"
+      },
+      {
+        "objectName": "CandleHolder"
       }
     ]
   },
