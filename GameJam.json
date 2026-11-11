@@ -680,6 +680,70 @@
         "name": "assets/sprites/Candle/candle.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame_smoke007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame_smoke007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame_empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame_empty.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
