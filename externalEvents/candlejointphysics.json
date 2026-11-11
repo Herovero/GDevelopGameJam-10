@@ -91,6 +91,23 @@
       "actions": [
         {
           "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Flame",
+            "Sticker",
+            "CandleVisual",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
             "value": "SetXY"
           },
           "parameters": [
