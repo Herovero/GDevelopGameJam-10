@@ -1081,7 +1081,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Candle",
       "persistentUuid": "00916a0d-6337-420d-b957-4a77827e12cc",
@@ -1117,8 +1117,8 @@
           "linearDamping": 0.1,
           "angularDamping": 4,
           "gravityScale": 1,
-          "layers": 1,
-          "masks": 6
+          "layers": 7,
+          "masks": 7
         },
         {
           "name": "Sticker",
@@ -1167,11 +1167,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 2
                       },
                       {
                         "x": 11,
-                        "y": 0
+                        "y": 2
                       },
                       {
                         "x": 11,
@@ -2112,6 +2112,393 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Player",
+      "persistentUuid": "5beda6c1-4165-41c0-8866-a345044d57a5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 400,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.99,
+          "RightwardSpeed": 0.99,
+          "UpwardSpeed": 0.99,
+          "DownwardSpeed": 0.99,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 2.0247e-320,
+          "LogRightwardSpeed": 2.0247e-320,
+          "LogDownwardSpeed": 2.0247e-320,
+          "LogUpwardSpeed": 2.0247e-320,
+          "DelayedCenterX": 2.0247e-320,
+          "DelayedCenterY": 2.0247e-320,
+          "ForecastHistoryMeanX": 2.0247e-320,
+          "ForecastHistoryMeanY": 2.0247e-320,
+          "ForecastHistoryVarianceX": 2.0247e-320,
+          "ForecastHistoryCovariance": 2.0247e-320,
+          "ForecastHistoryLinearA": 2.0247e-320,
+          "ForecastHistoryLinearB": 2.0247e-320,
+          "ForecastedX": 2.0247e-320,
+          "ForecastedY": 2.0247e-320,
+          "ProjectedNewestX": 2.0247e-320,
+          "ProjectedNewestY": 2.0247e-320,
+          "ProjectedOldestX": 2.0247e-320,
+          "ProjectedOldestY": 2.0247e-320,
+          "ForecastHistoryVarianceY": 2.0247e-320,
+          "Index": 2.0247e-320,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 2.0247e-320,
+          "WaitingSpeedXMax": 2.0247e-320,
+          "WaitingSpeedYMax": 2.0247e-320,
+          "WaitingEnd": 2.0247e-320,
+          "CameraDelayCatchUpDuration": 2.0247e-320,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000.000000007454,
+          "OldY": 9000.000000007454,
+          "IsCalledManually": false
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle1.png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": -3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle2.png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": -1
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle2 .png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle4 .png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle5.png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": -1
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle6.png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": -3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2149,6 +2536,9 @@
       },
       {
         "objectName": "CandleHolder"
+      },
+      {
+        "objectName": "Player"
       }
     ]
   },
