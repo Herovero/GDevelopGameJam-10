@@ -85,6 +85,60 @@
       "conditions": [
         {
           "type": {
+            "value": "KeyFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Space\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::Gravity"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "=",
+            "2000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IsOnFloor"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::Gravity"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "=",
+            "1000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "MouseButtonFromTextPressed"
           },
           "parameters": [
