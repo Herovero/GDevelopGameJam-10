@@ -538,26 +538,374 @@
         "userAdded": false
       },
       {
-        "file": "crystal cave tiles.png",
+        "file": "assets/sprites/ghost.png",
         "kind": "image",
         "metadata": "",
-        "name": "crystal cave tiles.png",
+        "name": "assets/sprites/ghost.png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "crystal cave tiles2.png",
+        "file": "assets/animated sprites/Torch (1).png",
         "kind": "image",
         "metadata": "",
-        "name": "crystal cave tiles2.png",
+        "name": "assets/animated sprites/Torch (1).png",
         "smoothed": false,
         "userAdded": false
       },
       {
-        "file": "crystal cave tiles3.png",
+        "file": "assets/animated sprites/torch/_a_frm0,100.png",
         "kind": "image",
         "metadata": "",
-        "name": "crystal cave tiles3.png",
+        "name": "assets/animated sprites/torch/_a_frm0,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm1,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm1,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm2,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm2,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm3,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm3,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm4,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm4,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm5,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm5,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm6,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm6,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm7,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm7,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm8,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm8,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm9,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm9,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm10,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm10,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm11,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm11,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm12,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm12,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/torch/_a_frm13,100.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/torch/_a_frm13,100.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sprites/Candle/candle_holder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/Candle/candle_holder.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sprites/Candle/candle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/sprites/Candle/candle.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame_smoke007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame_smoke007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/flame/flame_empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/flame/flame_empty.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/universfield-water-drop-131023.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/universfield-water-drop-131023.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/Blow Sound Effects Human Blow Candle 2 SFX Producer.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/Blow Sound Effects Human Blow Candle 2 SFX Producer.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/dragon-studio-ghost-horror-sound-382709.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/dragon-studio-ghost-horror-sound-382709.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/ghost_appear_sfx.MP3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/ghost_appear_sfx.MP3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/candle_hit_sfx.MP3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/candle_hit_sfx.MP3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/Burning Candle Meditation ~ Relaxing Music for Sleep & Study.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/Burning Candle Meditation ~ Relaxing Music for Sleep & Study.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/bgm/Cavern 8-Bit Music.MP3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/bgm/Cavern 8-Bit Music.MP3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle2 .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle2 .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle4 .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle4 .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/Idle/idle6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/Idle/idle6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/universfield-punch-impact-hit-567196.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/universfield-punch-impact-hit-567196.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/universfield-ground-impact-352053.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/universfield-ground-impact-352053.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sfx/rotating_sfx.MP3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sfx/rotating_sfx.MP3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/walk/walk1 .png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/walk/walk1 .png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/walk/walk2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/walk/walk2.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -594,8 +942,8 @@
           "linearDamping": 0.1,
           "angularDamping": 0.1,
           "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
+          "layers": 7,
+          "masks": 6
         }
       ],
       "animations": [
@@ -711,7 +1059,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": false,
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "CandleVisual",
       "persistentUuid": "595909b5-40cc-42bb-b90e-254042992188",
@@ -732,17 +1080,17 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/sprites/candle2.png",
+                  "image": "assets/sprites/Candle/candle.png",
                   "points": [
                     {
                       "name": "Bottom",
-                      "x": 100,
-                      "y": 640
+                      "x": 5.5,
+                      "y": 31
                     },
                     {
                       "name": "Top",
-                      "x": 100,
-                      "y": 70
+                      "x": 5.5,
+                      "y": -3
                     }
                   ],
                   "originPoint": {
@@ -763,16 +1111,16 @@
                         "y": 0
                       },
                       {
-                        "x": 0,
+                        "x": 11,
                         "y": 0
                       },
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 11,
+                        "y": 31
                       },
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 31
                       }
                     ]
                   ]
@@ -808,20 +1156,26 @@
           "fixedRotation": false,
           "canSleep": true,
           "shape": "Box",
-          "shapeDimensionA": 20,
-          "shapeDimensionB": 64,
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
           "shapeOffsetX": 0,
           "shapeOffsetY": 0,
           "polygonOrigin": "Center",
           "vertices": [],
-          "density": 0.01,
+          "density": 0.7,
           "friction": 0.3,
           "restitution": 0.1,
           "linearDamping": 0.1,
           "angularDamping": 4,
           "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
+          "layers": 7,
+          "masks": 7
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
         }
       ],
       "animations": [
@@ -836,17 +1190,17 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/sprites/candle2.png",
+                  "image": "assets/sprites/Candle/candle.png",
                   "points": [
                     {
-                      "name": "Bottom",
-                      "x": 100,
-                      "y": 640
+                      "name": "Top",
+                      "x": 5.5,
+                      "y": 1
                     },
                     {
-                      "name": "Top",
-                      "x": 100,
-                      "y": 70
+                      "name": "Bottom",
+                      "x": 5.5,
+                      "y": 31
                     }
                   ],
                   "originPoint": {
@@ -864,19 +1218,19 @@
                     [
                       {
                         "x": 0,
-                        "y": 0
+                        "y": 2
+                      },
+                      {
+                        "x": 11,
+                        "y": 2
+                      },
+                      {
+                        "x": 11,
+                        "y": 31
                       },
                       {
                         "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 0,
-                        "y": 0
+                        "y": 31
                       }
                     ]
                   ]
@@ -889,7 +1243,7 @@
     },
     {
       "assetStoreId": "",
-      "name": "Light",
+      "name": "CandleLight",
       "persistentUuid": "4083df98-0ca2-496f-a1c9-55161db3db4f",
       "type": "Lighting::LightObject",
       "variables": [],
@@ -905,7 +1259,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "CandleHUD_Empty2",
+      "name": "CandleHUD_Empty",
       "persistentUuid": "bd110d9c-77e7-4964-ade6-4a1cf660bc70",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -976,17 +1330,762 @@
       "behaviors": []
     },
     {
+      "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Platform",
-      "persistentUuid": "2d391dcd-db8c-430d-a609-e48d1203a2b2",
-      "type": "TileMap::SimpleTileMap",
+      "name": "Ghost",
+      "persistentUuid": "a7f1527e-5a12-432f-b098-69a793166ace",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Cooldown",
+          "persistentUuid": "cdb193e6-6032-4d0a-8b2e-a71bd64d3572",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "State",
+          "persistentUuid": "5662f023-b694-4d27-8a9a-b5e368d49078",
+          "type": "string",
+          "value": "Spawning"
+        },
+        {
+          "name": "PreviousX",
+          "persistentUuid": "6f5cfeb5-a8d4-4e9e-9935-165b39cbd32b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Hits",
+          "persistentUuid": "0054fa34-70ca-4600-b343-0645db44bbc0",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Lifetime",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": true,
+          "canSleep": true,
+          "shape": "Circle",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 5,
+          "friction": 0.1,
+          "restitution": 0,
+          "linearDamping": 2,
+          "angularDamping": 0.1,
+          "gravityScale": 0,
+          "layers": 2,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/sprites/ghost.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 2
+                      },
+                      {
+                        "x": 32,
+                        "y": 2
+                      },
+                      {
+                        "x": 32,
+                        "y": 31
+                      },
+                      {
+                        "x": 1,
+                        "y": 31
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Torch",
+      "persistentUuid": "0f3ef491-520b-4037-abf5-7c4faba23770",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm0,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm1,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm2,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm3,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm4,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm5,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm6,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm7,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm8,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm9,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm10,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm11,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm12,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/torch/_a_frm13,100.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 32,
+                      "y": 25
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 18
+                      },
+                      {
+                        "x": 36,
+                        "y": 30
+                      },
+                      {
+                        "x": 25,
+                        "y": 30
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TorchLight",
+      "persistentUuid": "75894c54-ac00-4752-b7f4-6d798c88d82b",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 50,
+        "color": "255;213;0",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CandleHolder",
+      "persistentUuid": "f9b0b678-781b-45c4-addc-8f5622a4faee",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
       "behaviors": [
         {
           "name": "Physics2",
           "type": "Physics2::Physics2Behavior",
-          "bodyType": "Static",
+          "bodyType": "Kinematic",
           "bullet": false,
           "fixedRotation": false,
           "canSleep": true,
@@ -1005,15 +2104,933 @@
           "gravityScale": 1,
           "layers": 1,
           "masks": 1
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
         }
       ],
-      "content": {
-        "atlasImage": "crystal cave tiles.png",
-        "rowCount": 10,
-        "columnCount": 13,
-        "tileSize": 32,
-        "tilesWithHitBox": "78,91,104,79,92,105,80,93,106,81,94,107,82,95,108,83,96,109,84,97,110,85,98,111,86,99,112,117,118,119,120,121,122,123,124"
-      }
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/sprites/Candle/candle_holder.png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 10,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 10,
+                    "y": 6
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 38
+                      },
+                      {
+                        "x": 20,
+                        "y": 50
+                      },
+                      {
+                        "x": 0,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Player",
+      "persistentUuid": "5beda6c1-4165-41c0-8866-a345044d57a5",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 500,
+          "jumpSustainTime": 0.5,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 1000,
+          "maxSpeed": 250,
+          "name": "PlatformerObject",
+          "slopeMaxAngle": 60,
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "useLegacyTrajectory": false,
+          "useRepeatedJump": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.99,
+          "RightwardSpeed": 0.99,
+          "UpwardSpeed": 0.99,
+          "DownwardSpeed": 0.99,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 2.0247e-320,
+          "LogRightwardSpeed": 2.0247e-320,
+          "LogDownwardSpeed": 2.0247e-320,
+          "LogUpwardSpeed": 2.0247e-320,
+          "DelayedCenterX": 2.0247e-320,
+          "DelayedCenterY": 2.0247e-320,
+          "ForecastHistoryMeanX": 2.0247e-320,
+          "ForecastHistoryMeanY": 2.0247e-320,
+          "ForecastHistoryVarianceX": 2.0247e-320,
+          "ForecastHistoryCovariance": 2.0247e-320,
+          "ForecastHistoryLinearA": 2.0247e-320,
+          "ForecastHistoryLinearB": 2.0247e-320,
+          "ForecastedX": 2.0247e-320,
+          "ForecastedY": 2.0247e-320,
+          "ProjectedNewestX": 2.0247e-320,
+          "ProjectedNewestY": 2.0247e-320,
+          "ProjectedOldestX": 2.0247e-320,
+          "ProjectedOldestY": 2.0247e-320,
+          "ForecastHistoryVarianceY": 2.0247e-320,
+          "Index": 2.0247e-320,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 2.0247e-320,
+          "WaitingSpeedXMax": 2.0247e-320,
+          "WaitingSpeedYMax": 2.0247e-320,
+          "WaitingEnd": 2.0247e-320,
+          "CameraDelayCatchUpDuration": 2.0247e-320,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000.000000007454,
+          "OldY": 9000.000000007454,
+          "IsCalledManually": false
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle1.png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": -3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle2.png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": -1
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle2 .png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": 4
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle4 .png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle5.png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": -1
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/Idle/idle6.png",
+                  "points": [
+                    {
+                      "name": "Top",
+                      "x": 16,
+                      "y": 0
+                    },
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": -3
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/walk/walk1 .png",
+                  "points": [
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": -1
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/walk/walk2.png",
+                  "points": [
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Flame",
+      "persistentUuid": "c8bf6d68-9b62-47df-afb2-60c24cde8cd3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.15,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/flame/flame001.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 10,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 9
+                      },
+                      {
+                        "x": 6,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/flame/flame002.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 10,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 9
+                      },
+                      {
+                        "x": 6,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/flame/flame003.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 10,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 9
+                      },
+                      {
+                        "x": 6,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/flame/flame004.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 10,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 9
+                      },
+                      {
+                        "x": 6,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/flame/flame005.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 10,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 9
+                      },
+                      {
+                        "x": 6,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/flame/flame006.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 10,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 9
+                      },
+                      {
+                        "x": 6,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vanish",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/flame/flame_smoke007.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 10,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 9
+                      },
+                      {
+                        "x": 6,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/flame/flame_empty.png",
+                  "points": [
+                    {
+                      "name": "Flame",
+                      "x": 10,
+                      "y": 5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 10,
+                    "y": 5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 13,
+                        "y": 9
+                      },
+                      {
+                        "x": 6,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1032,16 +3049,31 @@
         "objectName": "Candle"
       },
       {
-        "objectName": "Light"
-      },
-      {
-        "objectName": "CandleHUD_Empty2"
+        "objectName": "CandleHUD_Empty"
       },
       {
         "objectName": "CandleHUD_Full"
       },
       {
-        "objectName": "Platform"
+        "objectName": "Torch"
+      },
+      {
+        "objectName": "CandleLight"
+      },
+      {
+        "objectName": "TorchLight"
+      },
+      {
+        "objectName": "Ghost"
+      },
+      {
+        "objectName": "CandleHolder"
+      },
+      {
+        "objectName": "Player"
+      },
+      {
+        "objectName": "Flame"
       }
     ]
   },
@@ -1101,11 +3133,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/sfx--bgm"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/enemies"
+      "referenceTo": "/externalEvents/ghost-enemy-ai"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1130,6 +3158,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/candlehealthhud"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/torch-lightning-system"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/bgm"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player-respawn-system"
     }
   ],
   "externalEventsFolderStructure": {
@@ -1145,10 +3185,13 @@
         "itemName": "Candle Lightning System"
       },
       {
+        "itemName": "Torch Lightning System"
+      },
+      {
         "itemName": "Collision Debug"
       },
       {
-        "itemName": "Enemies"
+        "itemName": "Ghost Enemy AI"
       },
       {
         "itemName": "Platforms"
@@ -1163,13 +3206,16 @@
         "itemName": "MainMenu"
       },
       {
-        "itemName": "SFX & BGM"
-      },
-      {
         "itemName": "Water Droplet Spawn System"
       },
       {
         "itemName": "CandleHealthHUD"
+      },
+      {
+        "itemName": "BGM"
+      },
+      {
+        "itemName": "Player Respawn System"
       }
     ]
   },

@@ -17,25 +17,13 @@
       "actions": [
         {
           "type": {
-            "value": "Physics2::AddRevoluteJointBetweenTwoBodies"
+            "value": "Sticker::Sticker::Stick"
           },
           "parameters": [
-            "Player",
-            "Physics2",
-            "Player.X(\"Top\")",
-            "Player.Y(\"Top\") - 10",
             "Candle",
-            "Candle.X(\"Bottom\")",
-            "Candle.Y(\"Bottom\")",
-            "yes",
-            "0",
-            "-60",
-            "60",
-            "yes",
-            "",
-            "800",
-            "yes",
-            "CandleJoint"
+            "Sticker",
+            "CandleHolder",
+            ""
           ]
         },
         {
@@ -57,11 +45,84 @@
             "value": "SetXY"
           },
           "parameters": [
+            "CandleHolder",
+            "=",
+            "Player.X(\"Hold\")",
+            "=",
+            "Player.Y(\"Hold\")"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Physics2::AddRevoluteJointBetweenTwoBodies"
+          },
+          "parameters": [
+            "CandleHolder",
+            "Physics2",
+            "CandleHolder.X(\"Top\")",
+            "CandleHolder.Y(\"Top\") - 6",
+            "Candle",
+            "Candle.X(\"Bottom\")",
+            "Candle.Y(\"Bottom\")",
+            "yes",
+            "0",
+            "-79",
+            "79",
+            "yes",
+            "",
+            "800",
+            "yes",
+            "CandleJoint"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Sticker::Sticker::Stick"
+          },
+          "parameters": [
+            "Flame",
+            "Sticker",
+            "CandleVisual",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
             "CandleVisual",
             "=",
             "Candle.X()",
             "=",
-            "Candle.Y() + 10 - (abs(AngleDifference(Candle.Angle(), 0)) * 0.1)"
+            "Candle.Y() + 6 - (abs(AngleDifference(Candle.Angle(), 0)) * 0.05)"
           ]
         },
         {
@@ -86,8 +147,14 @@
           "parameters": [
             "Candle",
             "<=",
-            "-59"
+            "-79"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -96,7 +163,7 @@
             "value": "Physics2::Remove joint"
           },
           "parameters": [
-            "Player",
+            "CandleHolder",
             "Physics2",
             "CandleJoint"
           ]
@@ -113,8 +180,14 @@
           "parameters": [
             "Candle",
             ">=",
-            "59"
+            "79"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -123,27 +196,12 @@
             "value": "Physics2::Remove joint"
           },
           "parameters": [
-            "Player",
+            "CandleHolder",
             "Physics2",
             "CandleJoint"
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"f\""
-          ]
-        }
-      ],
-      "actions": []
     }
   ]
 }

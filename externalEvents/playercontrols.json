@@ -13,18 +13,38 @@
             "",
             "\"a\""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Flame",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Physics2::LinearVelocityX"
+            "value": "PlatformBehavior::SimulateControl"
           },
           "parameters": [
             "Player",
-            "Physics2",
-            "=",
-            "-100"
+            "PlatformerObject",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Player",
+            "Flippable",
+            "yes"
           ]
         }
       ]
@@ -40,18 +60,38 @@
             "",
             "\"d\""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Flame",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Physics2::LinearVelocityX"
+            "value": "PlatformBehavior::SimulateControl"
           },
           "parameters": [
             "Player",
-            "Physics2",
-            "=",
-            "100"
+            "PlatformerObject",
+            "\"Right\""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Player",
+            "Flippable",
+            "no"
           ]
         }
       ]
@@ -61,43 +101,154 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::And"
+            "value": "KeyFromTextPressed"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"a\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"d\""
-              ]
-            }
+          "parameters": [
+            "",
+            "\"Space\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Flame",
+            "Animation",
+            "=",
+            "\"Idle\""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Physics2::LinearVelocityX"
+            "value": "PlatformBehavior::SimulateControl"
           },
           "parameters": [
             "Player",
-            "Physics2",
+            "PlatformerObject",
+            "\"Jump\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyFromTextReleased"
+          },
+          "parameters": [
+            "",
+            "\"Space\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Flame",
+            "Animation",
             "=",
-            "0"
+            "\"Idle\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::Gravity"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "=",
+            "2000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Player",
+            "Animation",
+            "=",
+            "\"walk\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Player",
+            "Animation",
+            "=",
+            "\"idle\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IsOnFloor"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::Gravity"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "=",
+            "1000"
           ]
         }
       ]
@@ -113,6 +264,16 @@
             "",
             "\"Right\""
           ]
+        },
+        {
+          "type": {
+            "value": "Physics2::JointSecondObject"
+          },
+          "parameters": [
+            "Candle",
+            "Physics2",
+            "CandleJoint"
+          ]
         }
       ],
       "actions": [
@@ -121,11 +282,49 @@
             "value": "Physics2::RevoluteJointMotorSpeed"
           },
           "parameters": [
-            "Player",
+            "CandleHolder",
             "Physics2",
             "CandleJoint",
             "=",
-            "(MouseX(\"\", 0) - Player.X()) * 0.5"
+            "(MouseX(\"\", 0) - CandleHolder.X()) * 0.5"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "abs(Candle.Physics2::AngularVelocity())",
+                ">",
+                "30"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "assets/sfx/rotating_sfx.MP3",
+                "3",
+                "",
+                "60",
+                "RandomFloatInRange(0.8, 1.2)"
+              ]
+            }
           ]
         }
       ]
@@ -168,7 +367,7 @@
             "value": "Physics2::RevoluteJointMotorSpeed"
           },
           "parameters": [
-            "Player",
+            "CandleHolder",
             "Physics2",
             "CandleJoint",
             "=",
@@ -215,7 +414,7 @@
             "value": "Physics2::RevoluteJointMotorSpeed"
           },
           "parameters": [
-            "Player",
+            "CandleHolder",
             "Physics2",
             "CandleJoint",
             "=",
@@ -223,49 +422,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Space\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Physics2::Collision"
-          },
-          "parameters": [
-            "Player",
-            "Physics2",
-            "Platform",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Physics2::LinearVelocityY"
-          },
-          "parameters": [
-            "Player",
-            "Physics2",
-            "-",
-            "300"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "associatedLayout": "Veron's Scene",
+  "name": "BGM",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "MusicPlaying"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/bgm/Cavern 8-Bit Music.MP3",
+            "2",
+            "",
+            "50",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

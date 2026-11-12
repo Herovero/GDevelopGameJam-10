@@ -6,7 +6,7 @@
   "r": 255,
   "renderer3DWorldScale": 100,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 255,
   "uiSettings": {
@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0973679695629748,
+    "zoomFactor": 1.528913289223363,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -44,7 +44,13 @@
       "name": "CandleLightRadius",
       "persistentUuid": "568ff6e6-263c-4be0-92b2-ae42c5feb010",
       "type": "number",
-      "value": 200
+      "value": 400
+    },
+    {
+      "name": "TargetLightRadius",
+      "persistentUuid": "666ee785-b70d-47b8-bc20-8ae1162a588a",
+      "type": "number",
+      "value": 400
     },
     {
       "name": "DropletSpawnTimer",
@@ -63,8 +69,8 @@
       "name": "Player",
       "persistentUuid": "4ded1d81-e820-41d3-868a-3f314e5850bd",
       "width": 79,
-      "x": 368,
-      "y": 320,
+      "x": 378,
+      "y": 371,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -141,50 +147,16 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Candle",
-      "persistentUuid": "c9578313-8694-42c0-8ad4-fef9d9dffbc1",
-      "width": 20,
-      "x": 374,
-      "y": 254,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "Lighting",
-      "name": "Light",
+      "name": "CandleLight",
       "persistentUuid": "d9699294-e6f4-47af-8d3c-d9b5e8f7f83f",
       "width": 0,
       "x": 911,
       "y": 113,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "Lighting",
-      "name": "CandleVisual",
-      "persistentUuid": "b7fdf1c1-996d-4906-ac55-c40a5f70cc25",
-      "width": 20,
-      "x": 416,
-      "y": 252,
-      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -211,22 +183,6 @@
       "customSize": false,
       "height": 0,
       "keepRatio": true,
-      "layer": "",
-      "name": "Water_Droplet",
-      "persistentUuid": "b3bc0337-45c3-4f78-8ae3-15693f07df3f",
-      "width": 0,
-      "x": 485,
-      "y": 239,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
       "layer": "HUD",
       "name": "CandleHUD_Full",
       "persistentUuid": "088ea3f6-52aa-492c-bb1f-8744684ba299",
@@ -244,7 +200,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "HUD",
-      "name": "CandleHUD_Empty2",
+      "name": "CandleHUD_Empty",
       "persistentUuid": "165eb8f8-08ee-492b-bb3c-dbb56a8b096b",
       "width": 0,
       "x": 19,
@@ -253,152 +209,106 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Torch",
+      "persistentUuid": "251a2bdf-afdd-4d8d-bbc0-e7706596081b",
+      "width": 0,
+      "x": 747,
+      "y": 281,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Candle",
+      "persistentUuid": "60858f30-7b89-407c-8ede-e6c67ab8c018",
+      "width": 0,
+      "x": 391,
+      "y": 315,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CandleVisual",
+      "persistentUuid": "1d3da7d4-c428-4964-83e4-c5a149dbf0ef",
+      "width": 0,
+      "x": 501,
+      "y": 366,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CandleHolder",
+      "persistentUuid": "8ad2fa9e-6098-46f3-a6b8-3880da85ac6f",
+      "width": 0,
+      "x": 396,
+      "y": 359,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Flame",
+      "persistentUuid": "dfb043b6-ab82-4a9a-a2df-cb02b266065c",
+      "width": 0,
+      "x": 507,
+      "y": 362,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform_Ground",
+      "persistentUuid": "7e482757-a6b6-43a6-ae48-23f6ae22ad20",
+      "width": 260,
+      "x": 546,
+      "y": 255,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "Player",
-      "persistentUuid": "5beda6c1-4165-41c0-8866-a345044d57a5",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "bodyType": "Dynamic",
-          "bullet": false,
-          "fixedRotation": true,
-          "canSleep": true,
-          "shape": "Box",
-          "shapeDimensionA": 0,
-          "shapeDimensionB": 0,
-          "shapeOffsetX": 0,
-          "shapeOffsetY": 0,
-          "polygonOrigin": "Center",
-          "vertices": [],
-          "density": 5,
-          "friction": 0.3,
-          "restitution": 0.1,
-          "linearDamping": 2,
-          "angularDamping": 0.1,
-          "gravityScale": 1,
-          "layers": 1,
-          "masks": 1
-        },
-        {
-          "name": "SmoothCamera",
-          "type": "SmoothCamera::SmoothCamera",
-          "LeftwardSpeed": 0.99,
-          "RightwardSpeed": 0.99,
-          "UpwardSpeed": 0.99,
-          "DownwardSpeed": 0.99,
-          "FollowOnX": true,
-          "FollowOnY": true,
-          "FollowFreeAreaLeft": 0,
-          "FollowFreeAreaRight": 0,
-          "FollowFreeAreaTop": 0,
-          "FollowFreeAreaBottom": 0,
-          "CameraOffsetX": 0,
-          "CameraOffsetY": 0,
-          "CameraDelay": 0,
-          "ForecastTime": 0,
-          "ForecastHistoryDuration": 0,
-          "LogLeftwardSpeed": 2.0247e-320,
-          "LogRightwardSpeed": 2.0247e-320,
-          "LogDownwardSpeed": 2.0247e-320,
-          "LogUpwardSpeed": 2.0247e-320,
-          "DelayedCenterX": 2.0247e-320,
-          "DelayedCenterY": 2.0247e-320,
-          "ForecastHistoryMeanX": 2.0247e-320,
-          "ForecastHistoryMeanY": 2.0247e-320,
-          "ForecastHistoryVarianceX": 2.0247e-320,
-          "ForecastHistoryCovariance": 2.0247e-320,
-          "ForecastHistoryLinearA": 2.0247e-320,
-          "ForecastHistoryLinearB": 2.0247e-320,
-          "ForecastedX": 2.0247e-320,
-          "ForecastedY": 2.0247e-320,
-          "ProjectedNewestX": 2.0247e-320,
-          "ProjectedNewestY": 2.0247e-320,
-          "ProjectedOldestX": 2.0247e-320,
-          "ProjectedOldestY": 2.0247e-320,
-          "ForecastHistoryVarianceY": 2.0247e-320,
-          "Index": 2.0247e-320,
-          "CameraDelayCatchUpSpeed": 0,
-          "CameraExtraDelay": 2.0247e-320,
-          "WaitingSpeedXMax": 2.0247e-320,
-          "WaitingSpeedYMax": 2.0247e-320,
-          "WaitingEnd": 2.0247e-320,
-          "CameraDelayCatchUpDuration": 2.0247e-320,
-          "LeftwardSpeedMax": 9000,
-          "RightwardSpeedMax": 9000,
-          "UpwardSpeedMax": 9000,
-          "DownwardSpeedMax": 9000,
-          "OldX": 9000.000000007454,
-          "OldY": 9000.000000007454,
-          "IsCalledManually": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.5,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/StartingPixelPlayer.png",
-                  "points": [
-                    {
-                      "name": "Top",
-                      "x": 16,
-                      "y": 0
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 2
-                      },
-                      {
-                        "x": 32,
-                        "y": 2
-                      },
-                      {
-                        "x": 32,
-                        "y": 32
-                      },
-                      {
-                        "x": 0,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "assetStoreId": "",
       "height": 64,
@@ -684,9 +594,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Player"
-      },
-      {
         "objectName": "Platform_Ground"
       },
       {
@@ -863,6 +770,13 @@
       "include": {
         "includeConfig": 0
       },
+      "target": "Player Respawn System"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
       "target": "Candle Lightning System"
     },
     {
@@ -885,6 +799,27 @@
         "includeConfig": 0
       },
       "target": "CandleHealthHUD"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Ghost Enemy AI"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Torch Lightning System"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "BGM"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -941,24 +876,6 @@
       "effects": []
     },
     {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "MobileControls",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
-    },
-    {
       "ambientLightColorB": 128,
       "ambientLightColorG": 128,
       "ambientLightColorR": 128,
@@ -971,6 +888,24 @@
       "isLightingLayer": true,
       "isLocked": false,
       "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "MobileControls",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
@@ -1077,6 +1012,10 @@
       "type": "PlatformBehavior::PlatformBehavior"
     },
     {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
     },
@@ -1089,8 +1028,8 @@
       "type": "SmoothCamera::SmoothCamera"
     },
     {
-      "name": "TileMap",
-      "type": "TileMap::TileMapBehavior"
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     },
     {
       "name": "Tween",

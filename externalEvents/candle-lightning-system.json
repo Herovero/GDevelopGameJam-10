@@ -22,7 +22,36 @@
           "parameters": [
             "",
             "",
-            "\"34;34;43\""
+            "\"20;20;30\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundOnChannel"
+          },
+          "parameters": [
+            "",
+            "assets/sfx/Burning Candle Meditation ~ Relaxing Music for Sleep & Study.mp3",
+            "1",
+            "",
+            "100",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "CandleLightRadius",
+            "=",
+            "lerp(Variable(CandleLightRadius), Variable(TargetLightRadius), 5 * TimeDelta())"
           ]
         }
       ]
@@ -36,7 +65,7 @@
             "value": "SetXY"
           },
           "parameters": [
-            "Light",
+            "CandleLight",
             "=",
             "Candle.X(\"Top\")",
             "=",
@@ -46,7 +75,6 @@
       ]
     },
     {
-      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -55,7 +83,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "CandleLightRadius",
+            "TargetLightRadius",
             "-",
             "10 * TimeDelta()"
           ]
@@ -65,7 +93,7 @@
             "value": "Lighting::SetRadius"
           },
           "parameters": [
-            "Light",
+            "CandleLight",
             "CandleLightRadius"
           ]
         }
@@ -81,8 +109,19 @@
           "parameters": [
             "Candle",
             "Physics2",
-            "Platform",
+            "Platform_Ground",
             ""
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Physics2::JointSecondObject"
+          },
+          "parameters": [
+            "Candle",
+            "Physics2",
+            "CandleJoint"
           ]
         }
       ],
@@ -92,9 +131,116 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "CandleLightRadius",
+            "TargetLightRadius",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Flame",
+            "Animation",
+            "=",
+            "\"Vanish\""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Sticker::Sticker::Unstick"
+          },
+          "parameters": [
+            "Candle",
+            "Sticker",
+            ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Flame",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sfx/universfield-punch-impact-hit-567196.mp3",
+                "",
+                "40",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Flame",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Veron's Scene\"",
+                ""
+              ]
+            }
           ]
         }
       ]
@@ -104,12 +250,13 @@
       "conditions": [
         {
           "type": {
-            "value": "Physics2::Collision"
+            "value": "CollisionNP"
           },
           "parameters": [
             "Water_Droplet",
-            "Physics2",
             "Candle",
+            "",
+            "",
             ""
           ]
         }
@@ -129,9 +276,127 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "CandleLightRadius",
-            "-",
-            "50"
+            "TargetLightRadius",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Flame",
+            "Animation",
+            "=",
+            "\"Vanish\""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundChannel"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Flame",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets/sfx/universfield-punch-impact-hit-567196.mp3",
+                "",
+                "40",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Flame",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Veron's Scene\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Candle",
+            "Torch",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TargetLightRadius",
+            "=",
+            "400"
           ]
         }
       ]
@@ -146,7 +411,7 @@
           "parameters": [
             "CandleLightRadius",
             ">",
-            "200"
+            "400"
           ]
         }
       ],
@@ -158,7 +423,60 @@
           "parameters": [
             "CandleLightRadius",
             "=",
-            "200"
+            "400"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "TargetLightRadius",
+            ">",
+            "400"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "TargetLightRadius",
+            "=",
+            "400"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "CandleLightRadius",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "CandleLight",
+            ""
           ]
         }
       ]
