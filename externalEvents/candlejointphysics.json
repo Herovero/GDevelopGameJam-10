@@ -138,6 +138,75 @@
       ]
     },
     {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IsJumping"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "Player",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::AddRevoluteJointBetweenTwoBodies"
+              },
+              "parameters": [
+                "CandleHolder",
+                "Physics2",
+                "CandleHolder.X(\"Top\")",
+                "CandleHolder.Y(\"Top\") - 6",
+                "Candle",
+                "Candle.X(\"Bottom\")",
+                "Candle.Y(\"Bottom\")",
+                "yes",
+                "0",
+                "-79",
+                "79",
+                "yes",
+                "",
+                "800",
+                "yes",
+                "CandleJoint"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -157,7 +226,7 @@
             "value": "Physics2::Remove joint"
           },
           "parameters": [
-            "Player",
+            "CandleHolder",
             "Physics2",
             "CandleJoint"
           ]
@@ -184,7 +253,7 @@
             "value": "Physics2::Remove joint"
           },
           "parameters": [
-            "Player",
+            "CandleHolder",
             "Physics2",
             "CandleJoint"
           ]
@@ -216,6 +285,42 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Physics2::Collision"
+          },
+          "parameters": [
+            "Candle",
+            "Physics2",
+            "Platform_Ground",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlatformBehavior::IsJumping"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ]
 }

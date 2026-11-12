@@ -18,13 +18,12 @@
       "actions": [
         {
           "type": {
-            "value": "Physics2::LinearVelocityX"
+            "value": "PlatformBehavior::SimulateControl"
           },
           "parameters": [
             "Player",
-            "Physics2",
-            "=",
-            "-100"
+            "PlatformerObject",
+            "\"Left\""
           ]
         }
       ]
@@ -45,13 +44,12 @@
       "actions": [
         {
           "type": {
-            "value": "Physics2::LinearVelocityX"
+            "value": "PlatformBehavior::SimulateControl"
           },
           "parameters": [
             "Player",
-            "Physics2",
-            "=",
-            "100"
+            "PlatformerObject",
+            "\"Right\""
           ]
         }
       ]
@@ -61,43 +59,23 @@
       "conditions": [
         {
           "type": {
-            "value": "BuiltinCommonInstructions::And"
+            "value": "KeyFromTextPressed"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"a\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"d\""
-              ]
-            }
+          "parameters": [
+            "",
+            "\"Space\""
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "Physics2::LinearVelocityX"
+            "value": "PlatformBehavior::SimulateControl"
           },
           "parameters": [
             "Player",
-            "Physics2",
-            "=",
-            "0"
+            "PlatformerObject",
+            "\"Jump\""
           ]
         }
       ]
@@ -121,11 +99,11 @@
             "value": "Physics2::RevoluteJointMotorSpeed"
           },
           "parameters": [
-            "Player",
+            "CandleHolder",
             "Physics2",
             "CandleJoint",
             "=",
-            "(MouseX(\"\", 0) - Player.X()) * 0.5"
+            "(MouseX(\"\", 0) - CandleHolder.X()) * 0.5"
           ]
         }
       ]
@@ -168,7 +146,7 @@
             "value": "Physics2::RevoluteJointMotorSpeed"
           },
           "parameters": [
-            "Player",
+            "CandleHolder",
             "Physics2",
             "CandleJoint",
             "=",
@@ -215,7 +193,7 @@
             "value": "Physics2::RevoluteJointMotorSpeed"
           },
           "parameters": [
-            "Player",
+            "CandleHolder",
             "Physics2",
             "CandleJoint",
             "=",
@@ -223,49 +201,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"Space\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Physics2::Collision"
-          },
-          "parameters": [
-            "Player",
-            "Physics2",
-            "Platform_Ground",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Physics2::LinearVelocityY"
-          },
-          "parameters": [
-            "Player",
-            "Physics2",
-            "-",
-            "300"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ]
 }

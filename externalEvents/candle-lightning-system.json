@@ -112,6 +112,17 @@
             "Platform_Ground",
             ""
           ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Physics2::JointSecondObject"
+          },
+          "parameters": [
+            "Candle",
+            "Physics2",
+            "CandleJoint"
+          ]
         }
       ],
       "actions": [
@@ -185,31 +196,6 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "assets/sfx/Blow Sound Effects Human Blow Candle 2 SFX Producer.mp3",
-                "",
-                "50",
                 "1"
               ]
             }
