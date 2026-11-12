@@ -12,6 +12,16 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "MusicPlaying"
+          },
+          "parameters": [
+            "",
+            "2"
+          ]
         }
       ],
       "actions": [
@@ -22,13 +32,23 @@
           "parameters": [
             "",
             "assets/bgm/Cavern 8-Bit Music.MP3",
-            "1",
-            "yes",
+            "2",
+            "",
             "50",
             "1"
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ]
 }

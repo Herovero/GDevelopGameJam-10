@@ -13,6 +13,17 @@
             "",
             "\"a\""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Flame",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
         }
       ],
       "actions": [
@@ -38,6 +49,17 @@
           "parameters": [
             "",
             "\"d\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Flame",
+            "Animation",
+            "=",
+            "\"Idle\""
           ]
         }
       ],
@@ -65,6 +87,17 @@
             "",
             "\"Space\""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Flame",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
         }
       ],
       "actions": [
@@ -90,6 +123,17 @@
           "parameters": [
             "",
             "\"Space\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Flame",
+            "Animation",
+            "=",
+            "\"Idle\""
           ]
         }
       ],
