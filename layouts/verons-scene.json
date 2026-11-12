@@ -6,7 +6,7 @@
   "r": 255,
   "renderer3DWorldScale": 100,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 255,
   "uiSettings": {
@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2530387740590154,
+    "zoomFactor": 1.528913289223363,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -283,8 +283,8 @@
       "name": "Flame",
       "persistentUuid": "dfb043b6-ab82-4a9a-a2df-cb02b266065c",
       "width": 0,
-      "x": 497,
-      "y": 358,
+      "x": 507,
+      "y": 362,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -300,9 +300,25 @@
       "name": "Platform_Ground",
       "persistentUuid": "7e482757-a6b6-43a6-ae48-23f6ae22ad20",
       "width": 260,
-      "x": 545,
-      "y": 291,
+      "x": 546,
+      "y": 255,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ghost",
+      "persistentUuid": "e9e567bc-6b40-4bdc-8198-725c6b54e415",
+      "width": 0,
+      "x": 731,
+      "y": 348,
+      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -588,386 +604,6 @@
           "yGrabOffset": 0
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Flame",
-      "persistentUuid": "c8bf6d68-9b62-47df-afb2-60c24cde8cd3",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Sticker",
-          "type": "Sticker::Sticker",
-          "OnlyFollowPosition": false,
-          "IsDestroyedWithParent": false
-        }
-      ],
-      "animations": [
-        {
-          "name": "Idle",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.15,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/animated sprites/flame/flame001.png",
-                  "points": [
-                    {
-                      "name": "Flame",
-                      "x": 10,
-                      "y": 5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 9
-                      },
-                      {
-                        "x": 6,
-                        "y": 9
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/animated sprites/flame/flame002.png",
-                  "points": [
-                    {
-                      "name": "Flame",
-                      "x": 10,
-                      "y": 5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 9
-                      },
-                      {
-                        "x": 6,
-                        "y": 9
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/animated sprites/flame/flame003.png",
-                  "points": [
-                    {
-                      "name": "Flame",
-                      "x": 10,
-                      "y": 5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 9
-                      },
-                      {
-                        "x": 6,
-                        "y": 9
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/animated sprites/flame/flame004.png",
-                  "points": [
-                    {
-                      "name": "Flame",
-                      "x": 10,
-                      "y": 5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 9
-                      },
-                      {
-                        "x": 6,
-                        "y": 9
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/animated sprites/flame/flame005.png",
-                  "points": [
-                    {
-                      "name": "Flame",
-                      "x": 10,
-                      "y": 5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 9
-                      },
-                      {
-                        "x": 6,
-                        "y": 9
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/animated sprites/flame/flame006.png",
-                  "points": [
-                    {
-                      "name": "Flame",
-                      "x": 10,
-                      "y": 5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 9
-                      },
-                      {
-                        "x": 6,
-                        "y": 9
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Vanish",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/animated sprites/flame/flame_smoke007.png",
-                  "points": [
-                    {
-                      "name": "Flame",
-                      "x": 10,
-                      "y": 5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 9
-                      },
-                      {
-                        "x": 6,
-                        "y": 9
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets/animated sprites/flame/flame_empty.png",
-                  "points": [
-                    {
-                      "name": "Flame",
-                      "x": 10,
-                      "y": 5
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 6,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 0
-                      },
-                      {
-                        "x": 13,
-                        "y": 9
-                      },
-                      {
-                        "x": 6,
-                        "y": 9
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -992,9 +628,6 @@
             "objectName": "JumpButton"
           }
         ]
-      },
-      {
-        "objectName": "Flame"
       }
     ]
   },
@@ -1147,6 +780,13 @@
         "includeConfig": 0
       },
       "target": "PlayerControls"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Player Respawn System"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
