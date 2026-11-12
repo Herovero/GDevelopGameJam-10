@@ -139,7 +139,7 @@
           "parameters": [
             "Water_Droplet",
             "Physics2",
-            "Platform_Ground",
+            "Platform",
             ""
           ]
         }

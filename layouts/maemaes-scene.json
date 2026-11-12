@@ -1,16 +1,16 @@
 {
-  "b": 255,
+  "b": 114,
   "disableInputWhenNotFocused": true,
   "mangledName": "Maemae_39s_32Scene",
   "name": "Maemae's Scene",
-  "r": 255,
+  "r": 114,
   "renderer3DWorldScale": 100,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 255,
+  "v": 114,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -20,8 +20,8 @@
     "gridOffsetZ": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 1.0269425874981295,
+    "snap": true,
+    "zoomFactor": 1.0269425874981337,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -63,78 +63,9 @@
       "name": "Player",
       "persistentUuid": "4ded1d81-e820-41d3-868a-3f314e5850bd",
       "width": 79,
-      "x": 369,
-      "y": 357,
+      "x": 576,
+      "y": 608,
       "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 384,
-      "layer": "Background",
-      "locked": true,
-      "name": "Background",
-      "persistentUuid": "9d4a2623-239c-44d1-95a4-076307aa3170",
-      "width": 640,
-      "x": 320,
-      "y": 160,
-      "zOrder": -10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "hidden": true,
-      "keepRatio": true,
-      "layer": "MobileControls",
-      "name": "MoveJoystick",
-      "persistentUuid": "855d809a-f954-4072-86d5-1d6f0b24a066",
-      "width": 0,
-      "x": 176,
-      "y": 576,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 104,
-      "hidden": true,
-      "keepRatio": true,
-      "layer": "MobileControls",
-      "name": "JumpButton",
-      "persistentUuid": "b1d437ce-f3b4-4799-875e-bb51f731cef0",
-      "width": 104,
-      "x": 1104,
-      "y": 576,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform_Ground",
-      "persistentUuid": "1c4f7ab9-04d4-4cee-8572-96199ce1245c",
-      "width": 585,
-      "x": 352,
-      "y": 448,
-      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -149,8 +80,8 @@
       "name": "Candle",
       "persistentUuid": "c9578313-8694-42c0-8ad4-fef9d9dffbc1",
       "width": 20,
-      "x": 374,
-      "y": 254,
+      "x": 576,
+      "y": 544,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -175,32 +106,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "Lighting",
-      "name": "CandleVisual",
-      "persistentUuid": "b7fdf1c1-996d-4906-ac55-c40a5f70cc25",
-      "width": 20,
-      "x": 416,
-      "y": 252,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 30,
+      "depth": 1,
+      "height": 32,
       "keepRatio": true,
       "layer": "",
       "name": "Droplet_Spawner",
       "persistentUuid": "ec87534b-78cd-4c61-aaec-c09235d93459",
-      "width": 30,
-      "x": 498,
-      "y": 221,
+      "width": 32,
+      "x": 512,
+      "y": 384,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -236,6 +150,295 @@
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "84338a30-f0d6-4452-a80d-279114e9d768",
+      "width": 0,
+      "x": 0,
+      "y": -128,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CandleVisual",
+      "persistentUuid": "db12fe3c-5c53-46c3-96ff-13f4b53a33dd",
+      "width": 20,
+      "x": 268,
+      "y": 256,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "e9e2adbd-2a35-4745-9c94-2fd1fef52e18",
+      "width": 0,
+      "x": 0,
+      "y": 640,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":40,\"dimY\":5,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29],[29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29],[29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29],[29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29],[29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "0fe10046-f111-4385-b333-c6054098e353",
+      "width": 0,
+      "x": 1152,
+      "y": -64,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":27,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16],[16,16,16,16]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "43faa37b-6781-4d7b-9a82-c7d2705f87c0",
+      "width": 0,
+      "x": 0,
+      "y": -96,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":28,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29],[29,29,29,29,29]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "c317abcd-4642-44dc-a317-7490db682b07",
+      "width": 256,
+      "x": 320,
+      "y": 352,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":7,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "36169a0c-0eb2-42f3-8afa-72438f5f552b",
+      "width": 160,
+      "x": 736,
+      "y": 608,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16],[16,16]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "5522f8a1-c3f1-4966-be74-d24afe5718d2",
+      "width": 96,
+      "x": 896,
+      "y": 544,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16],[16,16],[16,16]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "aec999cf-8b2e-4901-bd65-07c2c7746c41",
+      "width": 160,
+      "x": 992,
+      "y": 480,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":9,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16],[16,16],[16,16],[16,16],[16,16],[16,16],[16,16],[16,16],[16,16]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "ef89cfea-33b4-44e5-803c-28a623f74419",
+      "width": 128,
+      "x": 384,
+      "y": 608,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16],[16,16]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "a114ed1a-f1ec-4756-9e42-a80a54e19047",
+      "width": 96,
+      "x": 704,
+      "y": 320,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":7,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Droplet_Spawner",
+      "persistentUuid": "ff7dd7aa-9308-4963-a1ec-c39bf8aae810",
+      "width": 32,
+      "x": 736,
+      "y": 352,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "095ee94a-f4cc-4d62-a2ec-3477f34c6e20",
+      "width": 96,
+      "x": 224,
+      "y": 544,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16],[16,16]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "0fd5577b-d5d2-4a3a-800b-b84bb5b1d6da",
+      "width": 64,
+      "x": 160,
+      "y": 480,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16],[16,16]]}]}"
+        }
+      ],
       "initialVariables": []
     }
   ],
@@ -382,18 +585,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 64,
-      "name": "Background",
-      "persistentUuid": "874faafd-7221-4378-a25e-cca934c3e2a3",
-      "texture": "assets\\PixelBackground.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 64,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -662,6 +853,22 @@
           "yGrabOffset": 0
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Background",
+      "persistentUuid": "5dc5165e-52f3-46d4-8466-7f3adf10bdfe",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "crystal cave tiles2.png",
+        "rowCount": 10,
+        "columnCount": 13,
+        "tileSize": 32,
+        "tilesWithHitBox": "78,91,104,117,79,92,105,118,80,93,106,119,81,94,107,120,82,95,108,121,83,96,109,122,84,97,110,123,85,98,111,124,86,99,112"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -672,9 +879,6 @@
       },
       {
         "objectName": "Platform_Ground"
-      },
-      {
-        "objectName": "Background"
       },
       {
         "objectName": "Coins"
@@ -689,6 +893,9 @@
             "objectName": "JumpButton"
           }
         ]
+      },
+      {
+        "objectName": "Background"
       }
     ]
   },
@@ -1071,6 +1278,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "TileMap",
+      "type": "TileMap::TileMapBehavior"
     },
     {
       "name": "Tween",

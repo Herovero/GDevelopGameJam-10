@@ -22,7 +22,7 @@
           "parameters": [
             "",
             "",
-            "\"20;20;30\""
+            "\"34;34;43\""
           ]
         }
       ]
@@ -46,6 +46,7 @@
       ]
     },
     {
+      "disabled": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": [
@@ -80,7 +81,7 @@
           "parameters": [
             "Candle",
             "Physics2",
-            "Platform_Ground",
+            "Platform",
             ""
           ]
         }

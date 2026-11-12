@@ -536,6 +536,30 @@
         "name": "assets/sprites/candle_small_empty.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "crystal cave tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crystal cave tiles.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crystal cave tiles2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crystal cave tiles2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crystal cave tiles3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crystal cave tiles3.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -950,6 +974,46 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform",
+      "persistentUuid": "2d391dcd-db8c-430d-a609-e48d1203a2b2",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "content": {
+        "atlasImage": "crystal cave tiles.png",
+        "rowCount": 10,
+        "columnCount": 13,
+        "tileSize": 32,
+        "tilesWithHitBox": "78,91,104,79,92,105,80,93,106,81,94,107,82,95,108,83,96,109,84,97,110,85,98,111,86,99,112,117,118,119,120,121,122,123,124"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -975,6 +1039,9 @@
       },
       {
         "objectName": "CandleHUD_Full"
+      },
+      {
+        "objectName": "Platform"
       }
     ]
   },

@@ -847,6 +847,10 @@
       "type": "SmoothCamera::SmoothCamera"
     },
     {
+      "name": "TileMap",
+      "type": "TileMap::TileMapBehavior"
+    },
+    {
       "name": "Tween",
       "type": "Tween::TweenBehavior"
     }
