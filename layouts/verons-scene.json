@@ -306,22 +306,6 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Ghost",
-      "persistentUuid": "e9e567bc-6b40-4bdc-8198-725c6b54e415",
-      "width": 0,
-      "x": 731,
-      "y": 348,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
     }
   ],
   "objects": [

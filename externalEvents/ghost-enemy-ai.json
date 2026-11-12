@@ -21,6 +21,15 @@
           },
           "parameters": [
             "Ghost",
+            "\"Lifetime\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Ghost",
             "\"Cooldown\""
           ]
         }
@@ -351,6 +360,17 @@
             "=",
             "\"Retreat\""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Flame",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
         }
       ],
       "actions": [
@@ -442,13 +462,32 @@
       "conditions": [
         {
           "type": {
-            "value": "NumberObjectVariable"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "Ghost",
-            "Hits",
-            ">=",
-            "5"
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Ghost",
+                "Hits",
+                ">=",
+                "RandomInRange(3, 5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Ghost",
+                "\"Lifetime\"",
+                ">",
+                "RandomInRange(10, 15)"
+              ]
+            }
           ]
         }
       ],

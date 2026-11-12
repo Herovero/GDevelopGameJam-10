@@ -36,6 +36,16 @@
             "PlatformerObject",
             "\"Left\""
           ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Player",
+            "Flippable",
+            "yes"
+          ]
         }
       ]
     },
@@ -72,6 +82,16 @@
             "Player",
             "PlatformerObject",
             "\"Right\""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Player",
+            "Flippable",
+            "no"
           ]
         }
       ]
@@ -156,6 +176,61 @@
       "conditions": [
         {
           "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Player",
+            "Animation",
+            "=",
+            "\"walk\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Player",
+            "Animation",
+            "=",
+            "\"idle\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "PlatformBehavior::IsOnFloor"
           },
           "parameters": [
@@ -189,6 +264,16 @@
             "",
             "\"Right\""
           ]
+        },
+        {
+          "type": {
+            "value": "Physics2::JointSecondObject"
+          },
+          "parameters": [
+            "Candle",
+            "Physics2",
+            "CandleJoint"
+          ]
         }
       ],
       "actions": [
@@ -202,6 +287,44 @@
             "CandleJoint",
             "=",
             "(MouseX(\"\", 0) - CandleHolder.X()) * 0.5"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "abs(Candle.Physics2::AngularVelocity())",
+                ">",
+                "30"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "assets/sfx/rotating_sfx.MP3",
+                "3",
+                "",
+                "60",
+                "RandomFloatInRange(0.8, 1.2)"
+              ]
+            }
           ]
         }
       ]
