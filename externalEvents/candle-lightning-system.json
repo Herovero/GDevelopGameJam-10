@@ -109,7 +109,7 @@
           "parameters": [
             "Candle",
             "Physics2",
-            "Platform_Ground",
+            "Platform",
             ""
           ]
         },

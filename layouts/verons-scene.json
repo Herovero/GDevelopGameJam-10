@@ -1032,6 +1032,10 @@
       "type": "Sticker::Sticker"
     },
     {
+      "name": "TileMap",
+      "type": "TileMap::TileMapBehavior"
+    },
+    {
       "name": "Tween",
       "type": "Tween::TweenBehavior"
     }
