@@ -109,7 +109,7 @@
           "parameters": [
             "Candle",
             "Physics2",
-            "Platform_Ground",
+            "Platform",
             ""
           ]
         },
@@ -237,7 +237,7 @@
               },
               "parameters": [
                 "",
-                "\"Veron's Scene\"",
+                "\"Mae's Scene\"",
                 ""
               ]
             }
@@ -364,7 +364,7 @@
               },
               "parameters": [
                 "",
-                "\"Veron's Scene\"",
+                "\"Mae's Scene\"",
                 ""
               ]
             }

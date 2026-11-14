@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Main Scene",
   "gdVersion": {
     "build": 287,
     "major": 5,
@@ -1395,6 +1395,7 @@
         },
         {
           "name": "Lifetime",
+          "persistentUuid": "dc55f6c5-188a-45c8-b197-d267afa482f4",
           "type": "number",
           "value": 0
         }
@@ -3147,6 +3148,53 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform",
+      "persistentUuid": "bfc6dbfd-807a-4b22-a0f7-082d48d11f11",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "content": {
+        "atlasImage": "crystal cave tiles4.png",
+        "rowCount": 10,
+        "columnCount": 13,
+        "tileSize": 32,
+        "tilesWithHitBox": "2,15,28,3,4,17,30,16,29,41,42,43,1,5,6,19,7,20,8,21,9,22,18,31,32,33,34,35,36,45,10,23,54,55,67,68,78,91,104,79,92,105,80,93,106,81,94,107,82,95,108,83,96,109,84,97,110,85,98,111,86,99,112,117,118,119,120,121,122,123,124"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3190,6 +3238,9 @@
       },
       {
         "objectName": "Flame"
+      },
+      {
+        "objectName": "Platform"
       }
     ]
   },
@@ -3206,7 +3257,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/maemaes-scene"
+      "referenceTo": "/layouts/maes-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -3223,7 +3274,7 @@
         "itemName": "Main Scene"
       },
       {
-        "itemName": "Maemae's Scene"
+        "itemName": "Mae's Scene"
       },
       {
         "itemName": "Marcus's Scene"
