@@ -910,10 +910,34 @@
         "userAdded": false
       },
       {
-        "file": "crystal cave tiles4.png",
+        "file": "assets/animated sprites/miner/walk/walk_1.png",
         "kind": "image",
         "metadata": "",
-        "name": "crystal cave tiles4.png",
+        "name": "assets/animated sprites/miner/walk/walk_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/walk/walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/walk/walk_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/walk/walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/walk/walk_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/animated sprites/miner/walk/walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/animated sprites/miner/walk/walk_4.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -2573,12 +2597,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/animated sprites/miner/walk/walk1 .png",
+                  "image": "assets/animated sprites/miner/walk/walk_1.png",
                   "points": [
                     {
                       "name": "Hold",
                       "x": 17,
-                      "y": -1
+                      "y": 0
                     }
                   ],
                   "originPoint": {
@@ -2615,12 +2639,96 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/animated sprites/miner/walk/walk2.png",
+                  "image": "assets/animated sprites/miner/walk/walk_2.png",
+                  "points": [
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": 1
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/walk/walk_3.png",
                   "points": [
                     {
                       "name": "Hold",
                       "x": 17,
                       "y": 0
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6,
+                        "y": 0
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 0
+                      },
+                      {
+                        "x": 26,
+                        "y": 48
+                      },
+                      {
+                        "x": 6,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/animated sprites/miner/walk/walk_4.png",
+                  "points": [
+                    {
+                      "name": "Hold",
+                      "x": 17,
+                      "y": -2
                     }
                   ],
                   "originPoint": {
