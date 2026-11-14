@@ -21,7 +21,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.511778403521034,
+    "zoomFactor": 0.8416428125373469,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -247,14 +247,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 2624,
+      "height": 2848,
       "keepRatio": true,
       "layer": "",
       "name": "Platform",
       "persistentUuid": "8954cd18-4f0e-4df2-ad5c-1424b7ca34fa",
       "width": 128,
       "x": 1280,
-      "y": -1824,
+      "y": -2048,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [
@@ -269,14 +269,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 2624,
+      "height": 2848,
       "keepRatio": true,
       "layer": "",
       "name": "Platform",
       "persistentUuid": "cd30c55d-4ddf-4ab2-b2b3-c5a1c5f29500",
       "width": 128,
       "x": -128,
-      "y": -1824,
+      "y": -2048,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [
@@ -299,72 +299,6 @@
       "width": 288,
       "x": 384,
       "y": 608,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "6dbace59-5d97-44fa-9782-86dbfd636526",
-      "width": 288,
-      "x": 0,
-      "y": 448,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "f43b81dd-e115-4f80-8117-62080bd3087f",
-      "width": 96,
-      "x": 224,
-      "y": 512,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "d300d16a-52c4-40c8-9e5f-c04dce9324c9",
-      "width": 224,
-      "x": 416,
-      "y": 448,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [
@@ -473,77 +407,11 @@
       "name": "Droplet_Spawner",
       "persistentUuid": "9971ebae-0a0c-45cc-b9ce-daafbf0b7888",
       "width": 32,
-      "x": 800,
+      "x": 768,
       "y": 448,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "8b2b3c45-8c62-4f2e-b77d-ae2e88baa923",
-      "width": 192,
-      "x": 704,
-      "y": 416,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "d74ab6a3-abcf-4e8c-bfa8-31cbe184436b",
-      "width": 192,
-      "x": 896,
-      "y": 416,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "95df9d23-0723-45d1-9aa7-766f5e7afef9",
-      "width": 128,
-      "x": 0,
-      "y": 384,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
       "initialVariables": []
     },
     {
@@ -558,182 +426,6 @@
       "width": 64,
       "x": 1088,
       "y": 576,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "86e85ba6-3310-403b-ba9b-0cf293895007",
-      "width": 96,
-      "x": 224,
-      "y": 288,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "2206e74f-85cd-43b3-9fdc-7989baca8ca8",
-      "width": 96,
-      "x": 384,
-      "y": 288,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "1fdd4f97-4118-4096-8027-c9c03f9fdb91",
-      "width": 128,
-      "x": 704,
-      "y": 384,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "144e87d8-e98d-4388-a10f-c66cfbd6487b",
-      "width": 128,
-      "x": 1088,
-      "y": 224,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "ff738d9d-5619-4395-bf4b-1b17c6cdc708",
-      "width": 96,
-      "x": 896,
-      "y": 288,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "9dda809d-921b-4000-8259-e77971422516",
-      "width": 128,
-      "x": 192,
-      "y": 320,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "654d00e3-6973-466a-9382-04992c9d50c4",
-      "width": 128,
-      "x": 608,
-      "y": 224,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "f753e06a-b82e-4171-a971-7cb0d1e05b91",
-      "width": 96,
-      "x": 992,
-      "y": 256,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [
@@ -797,28 +489,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "1311635c-53c5-46d0-9765-e85c47067a07",
-      "width": 96,
-      "x": 832,
-      "y": 160,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 64,
       "keepRatio": true,
       "layer": "",
@@ -827,94 +497,6 @@
       "width": 96,
       "x": 736,
       "y": 96,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "8fdab314-b0c3-4672-8ae9-7ce93b269927",
-      "width": 64,
-      "x": 0,
-      "y": 192,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "3f45019b-d229-4124-a347-a08304edb4e5",
-      "width": 128,
-      "x": 64,
-      "y": 160,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "82ad8cac-2b33-4bf4-bb49-806f0158b9c3",
-      "width": 224,
-      "x": 256,
-      "y": 64,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "cec05836-bc9d-44da-bd84-6fc6c957cf7f",
-      "width": 96,
-      "x": 640,
-      "y": -160,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [
@@ -946,28 +528,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "7569c88d-e4c3-4864-90b2-223b239cfac2",
-      "width": 64,
-      "x": 192,
-      "y": 96,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "",
@@ -979,72 +539,6 @@
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "a550c68a-a660-4fd4-84a6-1ab47699077a",
-      "width": 96,
-      "x": 384,
-      "y": -160,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "f849cc7f-50c5-4133-aba2-56047d6b30f1",
-      "width": 96,
-      "x": 1088,
-      "y": 0,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "34d7cb01-85b4-4ef8-bd99-1c031fd92c03",
-      "width": 160,
-      "x": 992,
-      "y": 64,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
       "initialVariables": []
     },
     {
@@ -1099,94 +593,6 @@
       "keepRatio": true,
       "layer": "",
       "name": "Platform",
-      "persistentUuid": "769a6e07-5625-41be-8ee4-2bf49f56b955",
-      "width": 224,
-      "x": 736,
-      "y": -224,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "3e9a1fc8-2f13-45d2-bb9a-9b57231dbc8d",
-      "width": 64,
-      "x": 224,
-      "y": -64,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "c60d9232-d413-4635-a86a-e45ec8e195fc",
-      "width": 96,
-      "x": 320,
-      "y": 32,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "343542dd-b022-44f5-b0a9-f17775bdbe1b",
-      "width": 128,
-      "x": 704,
-      "y": 160,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
       "persistentUuid": "52fe1244-13f6-4bb0-9344-6e0387d6bc06",
       "width": 96,
       "x": 544,
@@ -1213,94 +619,6 @@
       "width": 160,
       "x": 768,
       "y": -384,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "704c1f18-d65d-499a-8117-4e9da730f1b3",
-      "width": 224,
-      "x": 0,
-      "y": -288,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 160,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "7982a9f9-a4ff-4ce5-beaf-36451acbac5d",
-      "width": 96,
-      "x": 640,
-      "y": -320,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "db0615a3-0015-4edb-a00c-6d7d17659f2b",
-      "width": 96,
-      "x": 544,
-      "y": -128,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "134e6b86-d0c5-43b0-8e04-7b2adc27131e",
-      "width": 160,
-      "x": 480,
-      "y": -256,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [
@@ -1405,468 +723,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "30455fe5-18da-442f-bfdc-a1fa389c40d6",
-      "width": 192,
-      "x": 224,
-      "y": -352,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "50b3aec4-1184-4e94-b218-5ec5b557b337",
-      "width": 96,
-      "x": 1024,
-      "y": -512,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "ae31807d-493d-4e64-83c3-7e57064b44b0",
-      "width": 96,
-      "x": 704,
-      "y": -512,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "f40615b7-535c-4f35-801d-abb3e991c322",
-      "width": 128,
-      "x": 576,
-      "y": -704,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "d6e2a913-6529-4c68-9768-57e171ad9c42",
-      "width": 32,
-      "x": 768,
-      "y": -704,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "0a5a9e42-fa20-482d-905c-dae45d6ea597",
-      "width": 256,
-      "x": 768,
-      "y": -768,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "13021368-a594-4137-996b-8025d79100c0",
-      "width": 32,
-      "x": 928,
-      "y": -704,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "e1b64d7d-81c1-470d-b836-a17b782aefb0",
-      "width": 128,
-      "x": 960,
-      "y": -704,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "d16ae886-fb5f-4c3d-b100-17cbd895f2bc",
-      "width": 192,
-      "x": 512,
-      "y": -480,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "f7ca500e-460a-421d-b0c4-0f8ed74a4e7e",
-      "width": 64,
-      "x": 0,
-      "y": -320,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "59c7d02b-993a-4bf3-89ff-682f3b537e8f",
-      "width": 96,
-      "x": 96,
-      "y": -448,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "f1f1863e-fbfa-4a83-aafe-daeb6da6a0b4",
-      "width": 96,
-      "x": 256,
-      "y": -512,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "33fb59fc-13da-4317-b316-ed046501e83a",
-      "width": 160,
-      "x": 0,
-      "y": 0,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "f3388439-f544-4fb6-92ce-209567c79375",
-      "width": 64,
-      "x": 256,
-      "y": -128,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "b33824c1-b2c0-4d7c-a2be-8ffae33960fb",
-      "width": 96,
-      "x": 1184,
-      "y": -608,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "ab020db9-0973-4cc8-b9d9-08dfd63d11fb",
-      "width": 224,
-      "x": 576,
-      "y": -1696,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 192,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "3facc6db-cc09-4269-b7f6-5240c597a628",
-      "width": 96,
-      "x": 0,
-      "y": -768,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "f189f06e-c221-4777-acda-1b5d8bc6b963",
-      "width": 96,
-      "x": 96,
-      "y": -672,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "31162d82-d1f8-4307-b1fb-3c3049757ffa",
-      "width": 160,
-      "x": 192,
-      "y": -704,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "1bdd2db6-a427-49da-a13b-ef35640b3fee",
-      "width": 64,
-      "x": 0,
-      "y": -576,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "54fa5499-2717-4654-853f-ceb5fb695a42",
-      "width": 32,
-      "x": 0,
-      "y": -512,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "",
@@ -1918,160 +774,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 192,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "e2d52c93-f16d-478e-9156-38147c87515d",
-      "width": 64,
-      "x": 1216,
-      "y": -992,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "4606b7fb-660a-457f-b1b0-b6ea46a2d469",
-      "width": 128,
-      "x": 768,
-      "y": -896,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "e7df489e-ac93-4097-969b-7f3e961330db",
-      "width": 96,
-      "x": 576,
-      "y": -832,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "38447eca-adbc-41fc-b054-e5bf6ae2860f",
-      "width": 160,
-      "x": 1056,
-      "y": -896,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "0df8b48f-4079-40c5-9b1b-626872fa6c2d",
-      "width": 224,
-      "x": 352,
-      "y": -864,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "54c8b2fd-9b6b-48b1-9e66-39de8c996ad2",
-      "width": 64,
-      "x": 192,
-      "y": -864,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "41a0752d-18a8-4b12-9b7e-a640a8552830",
-      "width": 64,
-      "x": 1056,
-      "y": -1120,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 32,
       "keepRatio": true,
       "layer": "",
@@ -2083,292 +785,6 @@
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "a8f1e400-acef-4247-8df2-eed1a6e07d5d",
-      "width": 160,
-      "x": 896,
-      "y": -1152,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "69215910-cdec-4fa2-808f-8f9b83eb83a2",
-      "width": 32,
-      "x": 1120,
-      "y": -1088,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "6a73f9e5-99d6-44f6-810c-8a8d66b49f94",
-      "width": 128,
-      "x": 640,
-      "y": -1088,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "df0913db-3434-4cc5-bf04-929684cdcb53",
-      "width": 96,
-      "x": 480,
-      "y": -1184,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "d8d2b777-dcf3-48f1-8930-396dd83fd58a",
-      "width": 128,
-      "x": 256,
-      "y": -1120,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "b451c34c-9b5a-4a25-bb00-9dc49d72514c",
-      "width": 96,
-      "x": 1184,
-      "y": -1280,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "9ca43175-77e6-452b-9909-3e1a77144aeb",
-      "width": 128,
-      "x": 1024,
-      "y": -1472,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "aeb2a515-2047-414e-aab8-4c6bb95cdaad",
-      "width": 96,
-      "x": 896,
-      "y": -1376,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "a4dba040-1477-46ef-92c3-6ae5b8132953",
-      "width": 96,
-      "x": 160,
-      "y": -1184,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "d41ec109-08db-418a-a365-928d15840d1a",
-      "width": 64,
-      "x": 64,
-      "y": -1280,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "7708284d-ec1c-4359-a44f-30b1dce31818",
-      "width": 128,
-      "x": 416,
-      "y": -1408,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "f75a4903-fe0d-4258-aa68-7da829c38c12",
-      "width": 32,
-      "x": 1216,
-      "y": -1536,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "39ee305d-9f56-437c-b4b7-39a849ca4b36",
-      "width": 96,
-      "x": 544,
-      "y": 32,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
       "initialVariables": []
     },
     {
@@ -2385,160 +801,6 @@
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "0c7a9185-9789-4815-ba19-7407a45003af",
-      "width": 256,
-      "x": 640,
-      "y": -1408,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "5a1279da-6bd6-4387-a281-67e11129d4bc",
-      "width": 192,
-      "x": 192,
-      "y": -1376,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "9be004a2-07bc-4252-b8a7-76289d9aed23",
-      "width": 32,
-      "x": 288,
-      "y": -1600,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "6ed466b4-16de-4a40-89f0-5034b470376a",
-      "width": 96,
-      "x": 1024,
-      "y": -1632,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "31d2bb9d-df8f-49e4-a855-188596aa49a2",
-      "width": 32,
-      "x": 160,
-      "y": -1536,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 96,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "eafca7ce-3555-420b-8a89-fd66f08d5cce",
-      "width": 96,
-      "x": 256,
-      "y": -1472,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "7a4f568c-ae59-44c6-b22c-dc96d900e422",
-      "width": 96,
-      "x": 512,
-      "y": -1632,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
       "initialVariables": []
     },
     {
@@ -2618,114 +880,9 @@
       "name": "Droplet_Spawner",
       "persistentUuid": "92644219-ff46-45af-b0da-329933147762",
       "width": 32,
-      "x": 1184,
+      "x": 1216,
       "y": -1216,
       "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "30d8934e-534f-4420-a547-83dfc00004ae",
-      "width": 32,
-      "x": 960,
-      "y": -896,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "0f6f3397-6062-4814-aa4a-fe98f3a9f84a",
-      "width": 32,
-      "x": 416,
-      "y": -1600,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "1b412d31-5507-469f-938b-3c1b9eef9581",
-      "width": 32,
-      "x": 1248,
-      "y": -1632,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Platform",
-      "persistentUuid": "f6ddc776-5a71-47f5-92b5-d8b6a54ad2ea",
-      "width": 32,
-      "x": 896,
-      "y": -1632,
-      "zOrder": 21,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
-        }
-      ],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Coins",
-      "persistentUuid": "573d4873-dcc6-423d-9a51-8fcc3bfc9862",
-      "width": 32,
-      "x": 672,
-      "y": -1760,
-      "zOrder": 22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2757,11 +914,2042 @@
       "name": "GhostSpawner",
       "persistentUuid": "67ec4e38-f03b-4bc5-8036-64ea54c0f546",
       "width": 32,
-      "x": 96,
-      "y": -96,
+      "x": 32,
+      "y": -416,
       "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "GhostSpawner",
+      "persistentUuid": "c9213074-26f1-4a26-a9e5-6c7b2223897e",
+      "width": 32,
+      "x": 512,
+      "y": -1248,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Portal",
+      "persistentUuid": "e107be4e-c15c-45f6-aae8-c9ee19688875",
+      "width": 64,
+      "x": 640,
+      "y": -1792,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "a981f1d8-9fb8-4034-bd3e-e396704bfe58",
+      "width": 1280,
+      "x": 0,
+      "y": -2048,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":19,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "f6269011-6ea1-442f-aa5b-c04d6f2e1df6",
+      "width": 0,
+      "x": 0,
+      "y": 672,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":34,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,3,3,3,3,3,3,3,3,3,3,3,-1,-1,-1,-1,-1,-1,-1,-1,-1,3,3,-1,-1,-1,3,3,-1,-1,-1,3,3,3]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "48dc474a-0e29-4a34-9319-132bcd30d9fc",
+      "width": 0,
+      "x": 384,
+      "y": 608,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,3,3,3,3,4],[15,-1,-1,-1,-1,-1,-1,-1,17]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "3454057e-9934-4955-a646-9cfb36e69e59",
+      "width": 0,
+      "x": 736,
+      "y": 640,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "758f9791-7811-41f2-a01f-81196f009a5e",
+      "width": 0,
+      "x": 896,
+      "y": 576,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[15,-1,17],[15,-1,17]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "60f0c1e4-c28c-4dd3-af19-0b48eec76442",
+      "width": 0,
+      "x": 1088,
+      "y": 576,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3],[15,-1],[15,-1]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "d843d0ec-f057-4eb6-9682-9ecc181f9343",
+      "width": 0,
+      "x": 1152,
+      "y": 512,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3],[15,-1]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "d084ce76-29d6-4e25-b700-df4da62e26eb",
+      "width": 0,
+      "x": 1216,
+      "y": 416,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3],[15,-1],[15,-1]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "bd4762ff-b489-4204-8dfa-d1f57b2fc967",
+      "width": 0,
+      "x": 864,
+      "y": 416,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":7,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,3,3,4],[41,42,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "ef3a12c6-f178-4f6a-87c1-064503469e09",
+      "width": 0,
+      "x": 736,
+      "y": 384,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,4],[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "32245d27-995e-4ef2-8c66-3811ee82093c",
+      "width": 288,
+      "x": 384,
+      "y": 448,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":9,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,3,3,3,3,4],[41,42,42,42,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "644b829d-52fd-4e52-8ee7-4ceaa3f53c5a",
+      "width": 0,
+      "x": 224,
+      "y": 512,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "8e20e9e1-8aa7-4bae-b21b-b26be876429c",
+      "width": 0,
+      "x": 128,
+      "y": 448,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,4],[41,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "bcd865e8-f480-48c4-900d-c244251ca384",
+      "width": 0,
+      "x": 0,
+      "y": 384,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,3,3,4],[16,16,16,17],[16,16,16,17],[42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "e50b86a2-c499-449d-9a1d-eb7673fa5bf2",
+      "width": 0,
+      "x": 192,
+      "y": 320,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "10268b05-1440-4139-976f-3d379d2e91dd",
+      "width": 0,
+      "x": 224,
+      "y": 288,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "9f7a236a-fa8f-4f7b-8f35-adb4fab53deb",
+      "width": 0,
+      "x": 384,
+      "y": 288,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "ac0a64f1-05c8-49fd-9028-be1766e1f03b",
+      "width": 0,
+      "x": 896,
+      "y": 288,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":6,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "94dbbd9d-b6c6-4f01-89c1-64abae3ac1bc",
+      "width": 0,
+      "x": 992,
+      "y": 256,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "42eb9452-f072-4730-b911-726d84e7e941",
+      "width": 0,
+      "x": 1088,
+      "y": 224,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,4],[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "34e16982-b79b-4799-a50d-3d3889b07cfd",
+      "width": 0,
+      "x": 608,
+      "y": 224,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "f9dae4b1-ec66-46fe-a04d-abc1dea8f4f3",
+      "width": 0,
+      "x": 704,
+      "y": 160,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,16,16,16],[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "96f4144c-c3cf-49b9-95aa-fd004965488b",
+      "width": 0,
+      "x": 736,
+      "y": 96,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[15,-1,17]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "2ee38827-8ca9-4253-9cc9-43981ff4760f",
+      "width": 0,
+      "x": 832,
+      "y": 160,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,3,4]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "b2151cbc-56ba-4a57-b494-f137b216cb96",
+      "width": 0,
+      "x": 992,
+      "y": 64,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "652ccae4-3b59-4ee0-8ab0-2219e6d9f7f5",
+      "width": 0,
+      "x": 1088,
+      "y": 0,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "7e21eba5-4a62-45bb-97d7-442ae885323d",
+      "width": 0,
+      "x": 0,
+      "y": 192,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,3],[29,17],[42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "904c7ec6-ed6b-42c8-a805-934f2e5f7121",
+      "width": 0,
+      "x": 64,
+      "y": 160,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,4],[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "c10e8949-560c-4b24-b402-10527f08647d",
+      "width": 0,
+      "x": 192,
+      "y": 96,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,4],[41,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "17e75cc5-fe70-4511-b314-1ab547aa6ed3",
+      "width": 0,
+      "x": 256,
+      "y": 64,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":7,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,16,16,16,3,4],[41,42,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "82ade477-e5be-4cb2-b9cf-2b09380a450a",
+      "width": 0,
+      "x": 320,
+      "y": 32,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "9a5edea3-c713-45cd-9a2c-8739da837ab0",
+      "width": 0,
+      "x": 544,
+      "y": 32,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "ca686e60-60a2-4160-97dc-a82958c2141b",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,3,3,3,4],[42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "a24fe314-85cf-4494-99b5-4982d590c81a",
+      "width": 0,
+      "x": 224,
+      "y": -64,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "ee4474b4-aa2e-4aac-a7eb-d34894bd8c56",
+      "width": 0,
+      "x": 256,
+      "y": -128,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,4],[41,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "8a232bd5-0c33-40e4-b600-5b473ed33938",
+      "width": 0,
+      "x": 384,
+      "y": -160,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "c5388fb3-83dd-4a94-a749-4dd4e8768b88",
+      "width": 0,
+      "x": 544,
+      "y": -128,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "a58fe964-fb8e-4fb1-b5fd-bc1b4b1ad764",
+      "width": 0,
+      "x": 1248,
+      "y": -96,
+      "zOrder": 60,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2],[1073741826]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "7885912e-11b8-4f1a-a3ce-bf0ec524631b",
+      "width": 0,
+      "x": 1120,
+      "y": -192,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "bb78f020-1a95-4f0f-98ae-046a11b857d7",
+      "width": 0,
+      "x": 640,
+      "y": -320,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":7,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,3,4],[16,16,30],[16,16,30],[28,16,16],[28,16,16],[28,16,30],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "443cc820-a274-424e-b7c3-90374add210a",
+      "width": 0,
+      "x": 480,
+      "y": -256,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "7a64aa0e-ca8a-4a18-95b8-2db2c12fc89b",
+      "width": 0,
+      "x": 544,
+      "y": -320,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3],[15,16,16],[41,42,42]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "addb863c-f4ca-4b9c-b9fa-ce5905b50b16",
+      "width": 0,
+      "x": 768,
+      "y": -384,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,4],[41,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "59f4d34a-3877-47cf-9e03-aca5ed6d9bbc",
+      "width": 0,
+      "x": 224,
+      "y": -352,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,3,4],[41,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "79993f17-cdcd-4de4-824d-2d5d00cef609",
+      "width": 0,
+      "x": 0,
+      "y": -288,
+      "zOrder": 67,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":7,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[29,29,3,3,3,3,4],[29,29,29,29,29,29,17],[42,42,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "4abe612e-85c7-4306-8ae5-716bf7fdc060",
+      "width": 0,
+      "x": 0,
+      "y": -320,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,4]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "55a716bb-b8b9-488d-98e2-7d215ca4d990",
+      "width": 0,
+      "x": 96,
+      "y": -448,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "e7cc6e66-11bf-4d78-8dd6-d59a5c46a84b",
+      "width": 0,
+      "x": 256,
+      "y": -512,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "4e67e886-cb46-4d84-88bc-6d0aaf6c57ef",
+      "width": 0,
+      "x": 512,
+      "y": -480,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,3,4],[41,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "baa69cb5-9613-4c74-9707-88a973bfa88d",
+      "width": 0,
+      "x": 704,
+      "y": -512,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "81fa3b18-7fe7-46a4-8d76-fc070368d7e5",
+      "width": 0,
+      "x": 928,
+      "y": -512,
+      "zOrder": 71,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":6,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,3,4]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "7d2178d1-7afd-48ca-b7b9-7fdb98ac7587",
+      "width": 0,
+      "x": 1024,
+      "y": -480,
+      "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "6261f2d0-f664-4894-b27e-195c47451310",
+      "width": 0,
+      "x": 1184,
+      "y": -608,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3],[41,42,42]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "db0fcb9e-946b-4b69-951b-309c2b3a9b73",
+      "width": 0,
+      "x": 960,
+      "y": -704,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,16,3,4],[16,16,16,17],[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "90de0532-cad9-4951-8798-82015acf78df",
+      "width": 0,
+      "x": 928,
+      "y": -704,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[15],[41]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "2ae11059-cf50-4995-a98b-8873adbb0e37",
+      "width": 0,
+      "x": 768,
+      "y": -768,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":8,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,3,3,3,4],[16,42,42,42,42,29,29,17]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "5bbe5c29-e4b0-4095-9e00-d5f01047d417",
+      "width": 0,
+      "x": 768,
+      "y": -736,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[101],[29],[42]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "f4eb4b77-110b-4bf0-9c98-b0170b3584ce",
+      "width": 0,
+      "x": 576,
+      "y": -704,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,4],[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "3e5ab769-72ce-47bb-9dd5-5665e27922d1",
+      "width": 0,
+      "x": 192,
+      "y": -704,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,4],[41,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "15777853-e2f1-495a-acae-3a76aede6dac",
+      "width": 0,
+      "x": 96,
+      "y": -672,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "e7df80fc-f65a-4fb2-81e0-e183cfdb0c63",
+      "width": 0,
+      "x": 0,
+      "y": -768,
+      "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,3,4],[16,16,17],[29,29,17],[29,29,17],[29,29,17],[29,29,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "cf8dd675-2e63-4d39-8e33-8e3eafdaf4a0",
+      "width": 0,
+      "x": 0,
+      "y": -576,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[16,17],[16,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "77083b97-1db5-4e9e-bdf0-7a57d48363a4",
+      "width": 0,
+      "x": 0,
+      "y": -512,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[30],[43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "5d1eb909-0c44-48b7-bab9-2484134d7180",
+      "width": 0,
+      "x": 160,
+      "y": -864,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "1a4e1249-373d-4e9f-81ee-4248e8b7337f",
+      "width": 0,
+      "x": 736,
+      "y": -224,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":8,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3,3,3,3,3,3,3,4],[42,42,42,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "fd972720-9252-4e60-8256-fc6326e17c79",
+      "width": 0,
+      "x": 352,
+      "y": -864,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":7,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,3,3,4],[41,42,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "ce07bd93-d165-4816-aea9-f73735fc6481",
+      "width": 0,
+      "x": 576,
+      "y": -832,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "8c8ddb42-c395-448e-83c7-97469863fe44",
+      "width": 0,
+      "x": 768,
+      "y": -896,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "0aed8e46-1b29-4371-9409-8f3a6ba855e2",
+      "width": 0,
+      "x": 960,
+      "y": -896,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "edcb35c9-930c-436e-9c22-ce5e1146bef9",
+      "width": 0,
+      "x": 1056,
+      "y": -896,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":1,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[41,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "003eeee0-af57-47ae-8b6f-01bc6a470ddb",
+      "width": 0,
+      "x": 1216,
+      "y": -992,
+      "zOrder": 86,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":6,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3],[15,16],[15,16],[15,16],[15,16],[41,42]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "b18d8289-8755-452c-8ee0-4944ac407e50",
+      "width": 0,
+      "x": 640,
+      "y": -1088,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,4],[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "a7a4fd29-5a8f-4ba2-956f-baf11b514e7c",
+      "width": 0,
+      "x": 896,
+      "y": -1152,
+      "zOrder": 88,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":5,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,4],[41,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "640885a1-9ffc-4bb2-8982-9eabd0dfc9a8",
+      "width": 0,
+      "x": 1120,
+      "y": -1088,
+      "zOrder": 90,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[4],[43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "722902ff-d691-46b4-92c0-c835b7f41342",
+      "width": 0,
+      "x": 480,
+      "y": -1184,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "70fc3c0a-94ca-4d50-8d2c-5bda97b55301",
+      "width": 0,
+      "x": 256,
+      "y": -1120,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,4],[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "47b08d83-542c-4a66-a099-4f41b5b25b4e",
+      "width": 0,
+      "x": 160,
+      "y": -1184,
+      "zOrder": 91,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[15,29,17],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "60e3c95d-6bd3-45b5-bbbb-6f95e761af54",
+      "width": 0,
+      "x": 64,
+      "y": -1280,
+      "zOrder": 92,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,4],[41,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "8fdb9ef2-c451-4654-b002-f1e3c3f73f75",
+      "width": 0,
+      "x": 192,
+      "y": -1376,
+      "zOrder": 93,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":6,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,16,16,16,4],[41,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "c116f8ad-59b4-4e10-9049-770303473029",
+      "width": 0,
+      "x": 256,
+      "y": -1472,
+      "zOrder": 94,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":3,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[15,16,17],[15,16,17]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "6a57ca30-38a3-4cc8-b897-1678179b1bb5",
+      "width": 0,
+      "x": 416,
+      "y": -1408,
+      "zOrder": 95,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,4],[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "feedd04b-8166-47ca-accc-c5c6edbc02aa",
+      "width": 0,
+      "x": 896,
+      "y": -1376,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "65d2aa03-c8bd-4e24-89b3-873cbdf68bd4",
+      "width": 0,
+      "x": 1024,
+      "y": -1472,
+      "zOrder": 95,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":4,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,4],[41,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "8774a5f9-d096-4b50-9fff-7ea6cc9b43a0",
+      "width": 0,
+      "x": 1184,
+      "y": -1280,
+      "zOrder": 96,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3],[41,42,42]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "3858f55f-a4ca-46c4-868d-5adba972a9b8",
+      "width": 0,
+      "x": 640,
+      "y": -1408,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":8,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,3,3,3,4],[41,42,42,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "ffa4ef51-214a-4823-a02d-b680954cc282",
+      "width": 0,
+      "x": 160,
+      "y": -1536,
+      "zOrder": 98,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3],[42]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "e931a75e-d000-4142-bb78-8d14ffff0600",
+      "width": 0,
+      "x": 288,
+      "y": -1600,
+      "zOrder": 98,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3],[42]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "beba9f6a-1e3a-4e15-ae15-5f5f7fc58d40",
+      "width": 0,
+      "x": 416,
+      "y": -1600,
+      "zOrder": 98,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3],[42]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "7fa0bc7f-7113-4537-a5b1-9fb5c2732888",
+      "width": 0,
+      "x": 896,
+      "y": -1632,
+      "zOrder": 98,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3],[42]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "a6dad058-d8ea-4f0b-82d4-b45c18b247cb",
+      "width": 0,
+      "x": 1216,
+      "y": -1536,
+      "zOrder": 99,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":4,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[3],[16],[16],[42]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "724b721d-7630-48d2-a1c5-f7fa92266f21",
+      "width": 0,
+      "x": 1248,
+      "y": -1632,
+      "zOrder": 100,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":1,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2],[41]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "8c831efe-0f20-4172-b8f3-22ba140e71e3",
+      "width": 0,
+      "x": 1024,
+      "y": -1632,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "f8806fd7-78fd-4ea2-9d1c-984f13a017ea",
+      "width": 0,
+      "x": 512,
+      "y": -1632,
+      "zOrder": 59,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":3,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,4],[41,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "5ad3f731-98c7-41bb-9656-9af23e63ed7c",
+      "width": 0,
+      "x": 576,
+      "y": -1696,
+      "zOrder": 101,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":7,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3,3,3,3,3,4],[41,42,42,42,42,42,43]]}]}"
+        }
+      ],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "e70a0459-111c-42fd-a5b6-5290ca6b2c28",
+      "width": 0,
+      "x": 1056,
+      "y": -1088,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [
+        {
+          "name": "tilemap",
+          "value": "{\"tileWidth\":32,\"tileHeight\":32,\"dimX\":2,\"dimY\":2,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[2,3],[41,42]]}]}"
+        }
+      ],
       "initialVariables": []
     }
   ],
@@ -3033,6 +3221,22 @@
           "yGrabOffset": 0
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Foreground",
+      "persistentUuid": "e485967a-b6fa-4106-a31e-70d20988e4e7",
+      "type": "TileMap::SimpleTileMap",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "atlasImage": "crystal cave tiles5.png",
+        "rowCount": 10,
+        "columnCount": 13,
+        "tileSize": 32,
+        "tilesWithHitBox": "2,15,28,41,3,16,29,42,4,17,30,43,6,19,7,20,8,21,9,22,78,91,104,79,92,105,80,93,106,81,94,107,82,95,108,83,96,109,84,97,110,85,98,111,86,99,112,117,118,119,120,121,122,123,124,31,32,33,34,35,36,45,54,55,1,5,18"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3054,6 +3258,9 @@
             "objectName": "JumpButton"
           }
         ]
+      },
+      {
+        "objectName": "Foreground"
       }
     ]
   },

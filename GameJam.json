@@ -988,6 +988,94 @@
         "name": "assets/sprites/ghost spawner.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "portal_gif-Sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "portal_gif-Sheet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "portal_gif-export1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "portal_gif-export1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "portal_gif-export2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "portal_gif-export2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "portal_gif-export3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "portal_gif-export3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "portal_gif-export4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "portal_gif-export4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "portal_gif-export5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "portal_gif-export5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "portal_gif-export6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "portal_gif-export6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "portal_gif-export7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "portal_gif-export7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "portal_gif-export8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "portal_gif-export8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "portal_gif-export9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "portal_gif-export9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "crystal cave tiles5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "crystal cave tiles5.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3491,6 +3579,355 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Portal",
+      "persistentUuid": "953d7f8a-31ea-48cd-b687-07fb4209b253",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Portal_Anim",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "portal_gif-export1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 463
+                      },
+                      {
+                        "x": 16,
+                        "y": 463
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "portal_gif-export2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 463
+                      },
+                      {
+                        "x": 16,
+                        "y": 463
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "portal_gif-export3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 463
+                      },
+                      {
+                        "x": 16,
+                        "y": 463
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "portal_gif-export4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 463
+                      },
+                      {
+                        "x": 16,
+                        "y": 463
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "portal_gif-export5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 463
+                      },
+                      {
+                        "x": 16,
+                        "y": 463
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "portal_gif-export6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 463
+                      },
+                      {
+                        "x": 16,
+                        "y": 463
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "portal_gif-export7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 463
+                      },
+                      {
+                        "x": 16,
+                        "y": 463
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "portal_gif-export8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 463
+                      },
+                      {
+                        "x": 16,
+                        "y": 463
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "portal_gif-export9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 25
+                      },
+                      {
+                        "x": 244,
+                        "y": 463
+                      },
+                      {
+                        "x": 16,
+                        "y": 463
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3540,6 +3977,9 @@
       },
       {
         "objectName": "GhostSpawner"
+      },
+      {
+        "objectName": "Portal"
       }
     ]
   },
@@ -3557,6 +3997,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu"
     }
   ],
   "layoutsFolderStructure": {
@@ -3570,6 +4014,9 @@
       },
       {
         "itemName": "Main Scene"
+      },
+      {
+        "itemName": "Main Menu"
       }
     ]
   },
