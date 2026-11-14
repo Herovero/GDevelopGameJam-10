@@ -9,6 +9,9 @@
 /bin/
 /export/
 
+# Auto save
+*.autosave
+
 # GDevelop preview temporary files
 preview/
 /temp/

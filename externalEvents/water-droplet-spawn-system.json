@@ -28,43 +28,7 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"c\""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Show"
-          },
-          "parameters": [
-            "Droplet_Spawner",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "KeyFromTextPressed"
-          },
-          "parameters": [
-            "",
-            "\"c\""
-          ]
-        }
-      ],
+      "conditions": [],
       "actions": [
         {
           "type": {
@@ -75,11 +39,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
